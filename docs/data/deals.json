@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:49:51+09:00",
+  "generated_at": "2026-11-14T22:51:01+09:00",
   "source": "live",
   "site_url": "https://dgnslabs.github.io/hotdeal-bot/",
   "notice": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
@@ -8,9 +8,9 @@
     "min_discount_rate": 10
   },
   "stats": {
-    "fetched": 160,
+    "fetched": 157,
     "kept": 60,
-    "new": 15,
+    "new": 2,
     "api_calls": 8,
     "by_category": {
       "refurb": 12,
@@ -32,7 +32,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://t4a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/01/09/17/2/d63dc008-0e00-4e50-9ed2-2088b155cb45.jpg",
+      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/01/09/17/2/d63dc008-0e00-4e50-9ed2-2088b155cb45.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8542956019&itemId=24735276366&vendorItemId=91744077867&traceid=V0-143-c21eb8a2fb542151&pt=0&slot=11",
       "rocket": true,
       "free_shipping": false,
@@ -41,7 +41,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9050485070",
@@ -53,7 +53,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://t5c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/78030725445339-d3c1142f-fc01-43b3-ab17-6eb9443ae94c.png",
+      "image": "https://t1a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/78030725445339-d3c1142f-fc01-43b3-ab17-6eb9443ae94c.png",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9050485070&itemId=26562446341&vendorItemId=93536124740&traceid=V0-143-56467cbfc9da3b20&pt=0&slot=7",
       "rocket": true,
       "free_shipping": false,
@@ -62,7 +62,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7031130231",
@@ -74,7 +74,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://thumbnail13.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/424664536183317-be339d87-32cc-4621-8625-6c5e83abe477.jpg",
+      "image": "https://t3a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/424664536183317-be339d87-32cc-4621-8625-6c5e83abe477.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7031130231&itemId=12942465336&vendorItemId=91481162489&traceid=V0-143-2f540ddd2a33f137&pt=0&slot=17",
       "rocket": true,
       "free_shipping": false,
@@ -83,7 +83,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9020970148",
@@ -95,7 +95,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/512x512ex/image/rs_quotation_api/0clzznjy/973792439cce4e31928ec46458124aac.png",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/rs_quotation_api/0clzznjy/973792439cce4e31928ec46458124aac.png",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9020970148&itemId=26449555576&vendorItemId=93496126518&traceid=V0-143-f8dc83b38802de7c&pt=0&slot=5",
       "rocket": true,
       "free_shipping": false,
@@ -104,7 +104,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8166599379",
@@ -116,7 +116,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/454988473085748-275c2c41-6e01-499d-9b78-5091937a0790.png",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/454988473085748-275c2c41-6e01-499d-9b78-5091937a0790.png",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8166599379&itemId=23304742614&vendorItemId=90336772549&traceid=V0-143-7246c95b681457e7&pt=0&slot=6",
       "rocket": true,
       "free_shipping": false,
@@ -125,7 +125,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "261192458",
@@ -137,7 +137,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/16410130977344-449f81df-4e44-485e-af90-dc92159e4165.jpg",
+      "image": "https://t3a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/16410130977344-449f81df-4e44-485e-af90-dc92159e4165.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=261192458&itemId=816702952&vendorItemId=5077941266&traceid=V0-143-5875e3f7a89a609b&pt=0&slot=2",
       "rocket": true,
       "free_shipping": false,
@@ -146,7 +146,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9769483950",
@@ -158,7 +158,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "식품",
-      "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/43977781-93dc-41b3-ba16-050ecbec39eb14082933304488015757.png",
+      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/43977781-93dc-41b3-ba16-050ecbec39eb14082933304488015757.png",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9769483950&itemId=29259366970&vendorItemId=96177250419&traceid=V0-143-2ff24150a044c8b5&pt=0&slot=3",
       "rocket": true,
       "free_shipping": false,
@@ -167,7 +167,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9598017421",
@@ -181,14 +181,13 @@
       "category_name": "반려/애완용품",
       "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/36481144876665-5a225bb2-8026-40e3-93cc-f3bffea52c56.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9598017421&itemId=28652416230&vendorItemId=87734825297&traceid=V0-143-c4c3651ea1058778&pt=0&slot=10",
-      "rocket": true,
+      "rocket": false,
       "free_shipping": false,
       "tags": [
-        "골드박스",
-        "로켓배송"
+        "골드박스"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8817362511",
@@ -200,7 +199,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://thumbnail15.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/05/19/11/0/eb910002-91be-4b37-9880-8ad162c147f8.jpg",
+      "image": "https://t4c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/05/19/11/0/eb910002-91be-4b37-9880-8ad162c147f8.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8817362511&itemId=25522119970&vendorItemId=92548597753&traceid=V0-143-9baceb70d3589a07&pt=0&slot=13",
       "rocket": true,
       "free_shipping": false,
@@ -209,7 +208,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9757495081",
@@ -221,7 +220,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "가구/홈인테리어",
-      "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/86035911348485-2a09ab18-bb02-4357-80bc-6abb494579b6.jpg",
+      "image": "https://t5a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/86035911348485-2a09ab18-bb02-4357-80bc-6abb494579b6.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9757495081&itemId=29212872931&vendorItemId=96132773622&traceid=V0-143-75612e0a10b95116&pt=0&slot=8",
       "rocket": true,
       "free_shipping": false,
@@ -230,7 +229,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9498961688",
@@ -242,7 +241,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://t5a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/177276253501721-5594e5b1-f464-4cde-9600-ea177eb76b50.jpg",
+      "image": "https://t1c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/177276253501721-5594e5b1-f464-4cde-9600-ea177eb76b50.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9498961688&itemId=26014337537&vendorItemId=3003090997&traceid=V0-143-d7ad0dbdd810cb6b&pt=0&slot=23",
       "rocket": true,
       "free_shipping": false,
@@ -251,7 +250,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9391693366",
@@ -263,7 +262,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "출산/유아",
-      "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/07/09/15/7/f0d30b50-1145-4df2-910b-0228b870124d.png",
+      "image": "https://thumbnail14.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/07/09/15/7/f0d30b50-1145-4df2-910b-0228b870124d.png",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9391693366&itemId=28811885153&vendorItemId=95746874494&traceid=V0-143-2d6e6c242f818e40&pt=0&slot=12",
       "rocket": true,
       "free_shipping": false,
@@ -272,7 +271,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7518106999",
@@ -284,7 +283,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "패션의류",
-      "image": "https://t3c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/94466933148563-f0f16ee8-f27d-4942-8774-2cfe23304cab.jpg",
+      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/94466933148563-f0f16ee8-f27d-4942-8774-2cfe23304cab.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7518106999&itemId=19712957477&vendorItemId=86817280951&traceid=V0-143-fd5c96ab7799a80f&pt=0&slot=9",
       "rocket": true,
       "free_shipping": false,
@@ -293,7 +292,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8252026433",
@@ -305,7 +304,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/4737/6e77bf6b825045bc07e32bdd05ed7f02637d2ae30bf5378b70bb62ecd8d0.jpg",
+      "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/4737/6e77bf6b825045bc07e32bdd05ed7f02637d2ae30bf5378b70bb62ecd8d0.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8252026433&itemId=23758943870&vendorItemId=3191046514&traceid=V0-143-203b78358e1d4ce7&pt=0&slot=24",
       "rocket": true,
       "free_shipping": false,
@@ -314,7 +313,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6310187662",
@@ -326,7 +325,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://t1a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/93537994267526-18cb578d-3af9-4e9e-bf2d-cfda3d36a8f3.jpg",
+      "image": "https://t3a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/93537994267526-18cb578d-3af9-4e9e-bf2d-cfda3d36a8f3.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6310187662&itemId=21314538574&vendorItemId=80354647539&traceid=V0-143-67bc656e7ef2cccb&pt=0&slot=20",
       "rocket": true,
       "free_shipping": false,
@@ -335,7 +334,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:26:31+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9699039451",
@@ -347,7 +346,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "패션의류",
-      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/08/19/11/1/3eb85349-e07d-4176-a384-854197936e7a.jpg",
+      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/08/19/11/1/3eb85349-e07d-4176-a384-854197936e7a.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9699039451&itemId=29012844300&vendorItemId=95940908710&traceid=V0-143-b57bff16582b47f5&pt=0&slot=22",
       "rocket": true,
       "free_shipping": false,
@@ -356,7 +355,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "41629685",
@@ -368,7 +367,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/873777372720252-62b48d0d-df1b-4824-b432-6dc6e95f7115.jpg",
+      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/873777372720252-62b48d0d-df1b-4824-b432-6dc6e95f7115.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=41629685&itemId=27413282169&vendorItemId=94378888002&traceid=V0-143-88f35a227994afd9&pt=0&slot=15",
       "rocket": true,
       "free_shipping": false,
@@ -377,7 +376,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6902113163",
@@ -389,7 +388,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "패션잡화",
-      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/image_audit/stage/manual/8d25d1e9d770c96d64ddd1d4e1c3f0e93b95f6fe84082d2a15d809a383d7_1793339880853.jpg",
+      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/image_audit/stage/manual/8d25d1e9d770c96d64ddd1d4e1c3f0e93b95f6fe84082d2a15d809a383d7_1793339880853.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6902113163&itemId=22416573062&vendorItemId=91605667502&traceid=V0-143-91d7f95e842a48ba&pt=0&slot=1",
       "rocket": true,
       "free_shipping": false,
@@ -398,7 +397,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9767924221",
@@ -410,7 +409,7 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "패션잡화",
-      "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/10/07/11/1/57871c7b-7ea1-477f-9484-280a22823ba6.jpg",
+      "image": "https://t5a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/10/07/11/1/57871c7b-7ea1-477f-9484-280a22823ba6.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9767924221&itemId=29236709291&vendorItemId=96155453334&traceid=V0-143-37a8b304338a61a4&pt=0&slot=16",
       "rocket": true,
       "free_shipping": false,
@@ -419,7 +418,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8610449797",
@@ -440,7 +439,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "1628661260",
@@ -452,7 +451,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "로켓프레시",
-      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2020/05/26/14/4/bbdb8d6f-cf74-496d-a893-3168bc8092bd.jpg",
+      "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2020/05/26/14/4/bbdb8d6f-cf74-496d-a893-3168bc8092bd.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1628661260&itemId=2778350126&vendorItemId=70768128023&traceid=V0-143-7b3dbf216ef87b5e&pt=0&slot=4",
       "rocket": true,
       "free_shipping": false,
@@ -461,7 +460,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "1487703230",
@@ -473,7 +472,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "완구/취미",
-      "image": "https://t2a.coupangcdn.com/thumbnails/remote/512x512ex/image/1025_amir_coupang_oct_80k/95c2/db14fc990b3168596ffd0fa9bdd38c244e06d150e4d2b58e91ca067f6a31.jpg",
+      "image": "https://thumbnail11.coupangcdn.com/thumbnails/remote/512x512ex/image/1025_amir_coupang_oct_80k/95c2/db14fc990b3168596ffd0fa9bdd38c244e06d150e4d2b58e91ca067f6a31.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1487703230&itemId=2554295884&vendorItemId=70546832809&traceid=V0-143-55b295a5dcd3f4d5&pt=0&slot=25",
       "rocket": true,
       "free_shipping": false,
@@ -482,7 +481,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T21:23:03+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "1131217774",
@@ -494,7 +493,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "로켓프레시",
-      "image": "https://t1a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2952640157877271-dfe7e9b5-a4f4-45df-93de-2290a150b173.jpg",
+      "image": "https://t5a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2952640157877271-dfe7e9b5-a4f4-45df-93de-2290a150b173.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1131217774&itemId=24636993745&vendorItemId=91647915744&traceid=V0-143-29f0dccba3132b33&pt=0&slot=19",
       "rocket": true,
       "free_shipping": false,
@@ -503,47 +502,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:26:31+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
-    },
-    {
-      "id": "10000011552655",
-      "name": "★한정수량★ [A].소인 종일권 (주중/주말 공통)",
-      "price": 32000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "기타",
-      "category_key": "etc",
-      "category_name": "국내투어",
-      "image": "https://t3c.coupangcdn.com/thumbnails/remote/512x512ex/image/travel_reactor/travelSeller/common/A00221268/f24516fc-7a84-4a5a-a900-a16629b786a8.jpg",
-      "url": "https://link.coupang.com/re/AFFTDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=10000011552655&vendorItemId=70000320651277&itemId=20002263198440&traceid=V0-143-e2b55fadb59bc59e&pt=0&slot=14",
-      "rocket": false,
-      "free_shipping": false,
-      "tags": [
-        "골드박스"
-      ],
-      "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
-    },
-    {
-      "id": "10000011552663",
-      "name": "★종일 종합이용권 1인",
-      "price": 67000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "기타",
-      "category_key": "etc",
-      "category_name": "국내투어",
-      "image": "https://t2a.coupangcdn.com/thumbnails/remote/512x512ex/image/travel_reactor/travelSeller/common/A01310517/db66e7a6-7693-47a2-af62-1b6f77e6d245.jpg",
-      "url": "https://link.coupang.com/re/AFFTDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=10000011552663&vendorItemId=70000320656875&itemId=20002263225255&traceid=V0-143-adab2e4aca6d247c&pt=0&slot=18",
-      "rocket": false,
-      "free_shipping": false,
-      "tags": [
-        "골드박스"
-      ],
-      "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9693571792",
@@ -555,15 +514,15 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/ES5Wo6E3EL8zM__1EcowpnQf_EcvG0gvCFdM7jUDLx-7d9v_8bUYkL1FHFUHBkW_OKp0_c6zItjdLPwNem_TlfPh7Xz9uk5okM0eBNbCHo6D-pWZWjiIA7f-T_qsktVLiX-VQLiQ4vXvEcXtTCYWDLvTt0rvUwMrF-rKvVh1_HPRE5N4nGmp39rtOWo0bK85nW0f4BrQwmCmIlNXKmI-lvWH_eM6qMKsL5GUaz2l108Ash5CJPLpi9nHRPluE6KE9Zey1byURQkaAkYqhpiVuvCuEFmEqUUElU2iz-gOI3kHTeEjCgch7H1mRCgkOZRgw00tRmLrs-OH9WN_iAM4mjo2SnLahWGXGprMLRqoloAGQ0Hm1zWlFYopqtsL03SKbbAx0cLzjOFesGptjaxkc4ZUq9qISf29dYKnzm_-MeZPZCXlMIER5zF486WuK7zEj5l7uFw-zmlGgWpZggO74jYk_dN0CrJxq2V5RR5JWKgqr61vaMyoecI_O0n0FlAQhnk8E3C-RdAUToFk-2s8T-_NrSTkaO9uQEbik70G-U_52G5_0MbskImkfw==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9693571792&itemId=28993099298&vendorItemId=95921766502&traceid=V0-153-2b7ac78111406601&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=2",
+      "image": "https://ads-partners.coupang.com/image1/lLp_uLXqi9rrVzZhlG8xJu9V43z7sZf3f1Rbry9n5mlL7NwRu7UJLQkReMAhgCdadQh5eMY026_T-cNbfbuENABEJb9jS1l8MuDteHKky4rw9wRNqcq7H_xHPMJZszawGKXz3LS2pIkzuMVoi-7M2iRIkSBrQZcnnilMho6tLcvufWayAtt5ZmV9BCYO-iAdy7_UKzX5FSZQQNE2C8keGwhB_mb8tqVg0ROmo3wh0Pc6uDgEx-Tk1EEs6cjYLarkbWzXiHqqpv3MvrHzBs2NP0IHdaYxtkn2jJ-m5JkWOCxfIZoTxqm_X5YcfWsKgrN58nuTjvmegn4roTdkzEM0irdyuboSutgA7RBUja5PyGfD8RZMy520GguGd01rPHa-JtUm2S1dLu4hmmEGf5AmEywZi0xx63a4lh4kOO6NV5I3ubkciGzafhwWw7DQZRvb2-cJyb7EXQfpHexzB_zheiAwLy4fiWlOGkw0jB7jxAzCZtxbnC69tLfiiXJXYc4OVGFq9ByQUAhmgiqCFCQvxiMc9MknfmoJteIFmTfw9TV_9rhjP0PiRaWCcvk=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9693571792&itemId=28993099298&vendorItemId=95921766502&traceid=V0-153-2b7ac78111406601&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=2",
       "rocket": false,
       "free_shipping": false,
       "tags": [
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9398337831",
@@ -575,8 +534,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가구/홈인테리어",
-      "image": "https://ads-partners.coupang.com/image1/qkM7ZpUd3pZtK4LzqqkxStwIWR3o8Pi7IajnXxgobL0pmotmoH7UvtjUl81H2eDDYIm3nx5YyC5zKE8waksFhBHV0BmBCFnJ3EX9IzmJGLR5Q9SZ7V7j0cO6Pv6LWnG3gr_48HQeGWLslm2Vg2JEnbQ9pxDYvqFyQzEdVR99FrabptGy5LpPr0tqOp_L9AtJLQVaLvtI1ThM6Fm7OtcKfBK3ietZRXSsAVRDLLiw-ldEsJip2inCJ9L6J6ApN6hon0YEiWUnYeVQKogIVh-DCFZ09ogsR5AAYWi-vLDbMRhGLN5ZCzkLoRsyVaVJtGITxO2qIHp2LbLo7e1xYsLRs9berkH36Ny0fEsiXyCgtnlMXD9_yH39zMQrtznmlVpnzw6n0cfyJo5HaWuxPFrE76BQxt7BhQyyHyhbQ8W4ofNTcdK7Fe28wRSCr6eduEzhabkCObyxDvJAjLgDykY9OI9D3GxQzfJwwQIDzI3smhF8j7xYLMPC4fJH14W2ZhwqsVLlbajIaodgJbVX54_aGm6Q3isFCtBxetPtEUd3kjsOWP6OoBw0SopAgg==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9398337831&itemId=27914542686&vendorItemId=94873170565&traceid=V0-153-702bdf9e3ed6196d&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=8",
+      "image": "https://ads-partners.coupang.com/image1/S7RYKthme25XVzSSS49PveaX6S27L7HZF2Mw_jBia-8APQVTYjJDarx1hGtKOXU7DnwNM3pnZSLxT2BhhbQQZY5niGYsNHM9z992VWabXj-AGMfAK4o7YnIjap_WdWODjchBwVRfsqWv6fgScrTDXEQ_YbORB1YFR3gXC1w4fiwY78H6Tu6Z8T01lRdftDOUr56b3lKJO5ii_4JYPMhAkK92ECxJlgGydjiTgZDaWLAv6O1H4c3ASSbo4hJfOoQjjwxnQId2KK4CrseOYpGuf20oI49Wz3iPbJBsf_-O51vKa-H6SheZTeBDQCUF3iQhXq6T_fVUklpnyvHX3LwGzGjMv7lNPM2cG1p8x_JfaiJRcMauiDJ_Vj2rTcEunxX2A0-YkSa-dLwJGsnxe22bZbz0OKYP6glCzbt7ZPqc6uZIUPdKhKeRHp5ZjAX6BcC9x54yFwaVXBAwoi1imYwZshfANartJefG1AcOuH-1Tt5FTw-Mytsw24zJ3mOi_H1tkHmRVso7nkHhDyUcL3jQDWg_oyIH7OolBJtQkuf_gdAN0l-rR6nQTksgQQ==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9398337831&itemId=27914542686&vendorItemId=94873170565&traceid=V0-153-702bdf9e3ed6196d&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=8",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -584,7 +543,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9775453683",
@@ -596,15 +555,15 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "패션의류",
-      "image": "https://ads-partners.coupang.com/image1/e9FlWf2EBkYTnOs1e0NlHMZc1KJu7eUTSkMDT0Rp6B2FeAgEIgkDVM9xgqXcYKxYXXefIqzJcxsIqfpiA8HGFUiZDoB6EnnEVtL814i0U4SIHWhWe3G31wmgzjUkF5pMDA9vIlzcEozrE8bC5vU9hVuYbtVFq6qrKHWxRYkBkWwnLqoAitbkoE6SLmnkZfg2dfEnK95K94ePDZCBJicRrbk3BJ1i89Kh2Jrmb0z-cifIYteMnGoSuHbQOBWJQv09VLr2bO4f-m7quMcf-ss595CM6k7HVIhCbV3x04-lH1lxScUA-6V4Dj7lOPeK78V3-ADhex5UgJHEDoiPTezXUjdaSnijMbLTbP_mX4wjesQauBvomgBteSoNv0-vlN2xnIIfZHPIKIbvsaxQzYpf6zDam13LogqkrP8VUw61h5QVlDeeqXT-UlP_mBycTgSjTkmROTpkXvQx08tYczLTcZxuMqJuXroet3e7ipOsnt-9I16GMfMs1v0SOh7F6JUPzseIj1pJZ6xcRSMMTnFd2esf0i5q8u49mLNKjDHRVRiwrKyB-EHXXPMVDQ==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9775453683&itemId=29262731826&vendorItemId=96180423617&traceid=V0-153-4cc59d8bc915e984&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=9",
+      "image": "https://ads-partners.coupang.com/image1/e-YaePlLmzYO3QuXe1vTCN0Xqut76qD_LjovQ8HkWSsuweUcTCzuGjSnF5vKY1dM2ccdHTtJXav8bl18lu4COoHdCCMrhNpztT67lAFzbs-M-A6JDTAbS0xhSi10hqNKZcqln9PeL0kIbWvwX9rgiE24FMUL4A-POhmS9-2J-OinM25R7xkcIA5FYdvvNF61PTqkfGScQt0MZWdaUTKvhl09pGz0karDm-QYzqARWRGHEQo89wxPLLeNXxsgrlEUKkL8-kd4-jEj4oTZd4e-f1uD7Z3oFqOYL6r93WcQEZyA13J8YhfyqaH2gLtxnDB7MUB63qwQFz0g_ISykPTwjUrIr-zk345jwVOBrEMCmXjFDiI1P1B-tGAau0HxWI7DYb0Kq192EpgzsQ0ELKYTChzhHPfmM8ZTM7ARibuz1Y53iZnsAeviG3SyyEg3RdhvKH-yXB0emJ6c5EKNrtA5sUTghcNSPuoeCrv5CdwEwasRrTgtKY1MQWUEc32uGV9lDQmD-7FRhf_phcX6xglMiE9XL4iIjOy8QsSptVZmsHno2t3Bj7jzeD4-1Q==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9775453683&itemId=29262731826&vendorItemId=96180423617&traceid=V0-153-4cc59d8bc915e984&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=9",
       "rocket": false,
       "free_shipping": false,
       "tags": [
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9776709550",
@@ -616,8 +575,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/iONXIPe_IS88NFSxiJKA-mWQVQuTGIioq86NzNET6QG5kKH42EV24U_Stxj83hFKr8Q0_bJyJQ5QT7X_W_DvzX1VQmRa4dIMK6_t9lox1hsr6urtjdbCNOGTE2ne45rcrglJzf7y243OM20SZeEtW-fvqhfa-PWul1X7uTy2-HevdPF01q9GTn2sMn5OeK25wgfEsBRb01LXMu0ZycoXo1lcXOlGq1jlKe3C_vMbNjUDaWSv3sdywVF0bk_dWMWgVis-cKFjwKaVNV1kv_6m4raoswV8Zd_Lu-lPpiya9hB1lzPZFoqMeOurkb9IvB8B8AINfqHquXJ4oJbv84sIsAO2m70Fz9D3VWYWd0LMjruAhQt_LxCAZJVKaVhC4n7nF1BgDeWuJIRhWBxVE6OaXRdeOReRmBIySuxuATJqin3y0IGw8Mzw2u5WFPuQ2XqEt6zJSKZWIlDfX8wxKRML-EqbfI5j_mGlDooS3Z9MbnoIiaBNiecelKlFynyw91SfI3OtZ7tPjBO1gtWXZSnCsKHRwttfGKgU4raaUrgsFGr1mBAR8rcSGgaXxEEhcfqrOTaV0vGYB11eSO_TlQiwNANxX6Q=",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9776709550&itemId=29267287368&vendorItemId=96184561688&traceid=V0-153-9bc83876dc042349&clickBeacon=47108e50-e032-11f1-a580-086d1cc10957%7E3&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=1&slot=2",
+      "image": "https://ads-partners.coupang.com/image1/12jPVlqzodvMUALC13MbP_GiiGvam6CuYL6wBvNjLXvhjPn8HBjbmvTjsQxxnCyKOSoIhCtxyzwCH6UpxXtrzgNkiPT0tCloMfrDwv_P0gZTeY11zGYAPpjHLP4sl6OwoW-fDC6Ri-GlkOAG_2rgf7KTmP36_D_N1wmrUlfJBIjzimn01FN04O3vzddlBDH_bnco9dmexMuCUKtzeGWrvHvNsrCQLQJUGDJGd3dHtpDsiywHTOtHxDPcaYXzAvtf46ez4mJrpu2R62EDHmdTL5J2RANU6aIsP0Xt3U-2eaIUHHMFbqkZoNYIlsMwnjgzwBLFNVcLjvVphg4bg7Jg8jNE3uZHE0BnlPjs-HZ6Tq8j8qqkv7yYQLv14QLkJVEWJRlrCOtfXF4OZsdHZACpYz6g8qiWtar0xETs7d7NA_jAbWbOfcgab9ciSlG8BKGUF2N2toD6jJzYmqieuMZU6a1h56DcfGJ-CT-CbiVU2HKzGn4lsFmDtbx_CsbOY_IzIe2bY2_2yZoe0Qcx6mDeuimZ_pFGkagK0C0VhU3syJZRpcoSqSb7_WxABnl68FXaNmPeMv0GrZpQ18D_xJdq_Y1lUCJQ",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9776709550&itemId=29267287368&vendorItemId=96184561688&traceid=V0-153-9bc83876dc042349&clickBeacon=70944d70-e032-11f1-b445-aa457aa6074b%7E3&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=1&slot=2",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -625,7 +584,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7400206009",
@@ -637,15 +596,15 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "스포츠/레저용품",
-      "image": "https://ads-partners.coupang.com/image1/oX80N5EE_y7e_JXooaoEDiImc_43vpp7Jnzj6HWMrwpmiya1JPHScNYIoTGq5J3jdRHfeH3F_nQhhkajKyg1iYGPlway3EJLKarK3SAadeBaqx7rYjVmXCohD9E3Bj8RrspjQ0VDo-dxwEwsVhfm7mpU7ofn5Xi5fnEKZKM2MpjzWcOal62wve2hAFOqDOEIdT9kKUcyu7vaDdmXIuRYTVwKUFdUA2Cpjhjz47ffrCNZwl-d2Zo5E55bvxjQoffGzcHOHcqPHVua9khRGiuoCR5CjFIzT6OaC5teoLGqIzZ5KsoAEK_8xFelLqmLcbTnCHUblyvmmZf-aBLxtmfB5ap-UVanb8r_-Jai64NtX2pTsxANYpCcK7qXGndsHxhy5yPp0YDkOezlKNrCYALR2rxxjfaHULYuuAySk64w2cM21GMBimk8197soJa6jiy3d3JCNNyYV3YvzmOyMOLkbdE7blTMoo8b5hnXKdmOklaOQuHNz518fDGGWoXs52sg52TmZFMRzbqWqfFCd6SxjA9SlcM8V9FjKRLOyhKbvuFO8y2JMH9FMBp4qg==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7400206009&itemId=19152501442&vendorItemId=86271562104&traceid=V0-153-9f6c880d09197b3a&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=10",
+      "image": "https://ads-partners.coupang.com/image1/h0flsEH7n7VxkraUh3j0Ghv9sFMjVjnWZkUlTQg2UnvtX6Fmz5iVSqc_UgBJa9VIUw6h1EOQzNQijEbbRhHjOG3wQlPqyAQrGxNC499_-I54Z0ALkQ-fcS1H9lnuP97He0p4HC4sASvEgTmwfxFHyl-pAwQAk7uv0EJPivJwpCLImFx4cbsQhFnEzOjQNxEZubZeYqKwef6YY74-RzSW2TOHWcV6-3NJ3cMhU7zi4O1MNWfrZTxA1k7A_Rzet9M-RgyAH8_OnQ2Mkd5bxiG4DeIRcn3vkhqnow2ZBBZ--dSUSi_VSoPplwKWKg-1ndFUZ5d1bVn-QIM4yGdmZF0Hozki_EfPK_8nUeeTWLC2nKyf-MbwQygQSe9p5E_XuD4Hab82u9C4Am0TuR4RyVg8Cqn2Tv9sUtpAgOmvTbWj_pPiLMCESlscQ309EK2Aocb7TTzPMR71_xF71vf-1NfJTKsnQfIMLc3Xxypca019trAxGiokZwHvSBP9RmEyyXykCqFw802mRu-0mhmsms6wRUDMUSAd7VBcKv2V3MFl2d-D_CywIWKdv0bVtQ4=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7400206009&itemId=19152501442&vendorItemId=86271562104&traceid=V0-153-9f6c880d09197b3a&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=10",
       "rocket": false,
       "free_shipping": false,
       "tags": [
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6853378018",
@@ -657,8 +616,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/9p1E7bnMmGcuOf7t9nMgAlOIHp9fpVDZLxTMKuJRqNvh6n1oVWMMjBc40usiAxZcXvzJK235OvqFZSok4cQnSuzaRd1RX1qczZS3_LNLReI5mUJ_wf7uY2o4nuUcA3l5zx-MoWdYwdJBq7LjH1dwJcf2Vn0-spDW-lvaiT-Ps-P9nLa1F_kTvM5S-zqyhzBSWrDGIBWgzD_6ljwLWAvNHncCiGPExQ2zj9Ws40okAaUn9yuXQi9jsemWK9421kXFLbXSWvL-C2ULJkhzrApEzlk6OKQXquYhRknpUHZtaOWkrLZ3L0IAEreAAnFbD3PChrC5cAwvGfn1UMfFQZbBKCe5_NO2-xl5BXl2cFYi_sOSxUTdWdH7TACR46VBlpJDeiDiUE1Le73KNN7ec9nhYIjk5FPx-D9VMVcEMwWKsfSYB8fmpwS9xBYpq7gbmftmPh-MQyHVse2L8ZZG9Qleq-ua9GBO_U1zI-k2Bi2MiPDWFCCZO0d9bFhU0CdFfx1vzrFEx_mHsElRo4xwR7goRcxeenLVm3Vih2BXxYZvXR_6gGUVDOgsZMCdXVWU97_z21NUVf_mqVoI6rhMGTc1h9VzAE1-qhEUZYRzIN61OA==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6853378018&itemId=16335699715&vendorItemId=83541576914&traceid=V0-153-d121fcce041d4559&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=0&slot=6",
+      "image": "https://ads-partners.coupang.com/image1/zcnC2aYd8YY2gIqUzRLo62kJJlgIdiP8izFmbvXVsVwpTzvupkYAP9bSBzfIKLseNQpPab0hItSyeySxahvhA_jCxRlq1eQskN815GNalgqGv-YuxsaqfSsJCX9n3bPUQeTrPMlLGGmthzw_g9x3RCA33l_SfDiUr8X4KZe1pxIOfSMMVqNSZPUFbGN7IFAMgZduB1l4s_aAjRykclGPgwIH92Zul7TzLkuax6iEGIFEVA-T6syQXjUHCCY_-i0visaiy4eXXeNL0L6fvtHJGymkR22bZ5zF6engAprCJlCl25HLOAtSMweWagnDuPANBL8c5HxfQG6ayZ0KBEQ4-rDVEEERFf0M-tVTK23hSyN56RlPfszBqWweoE-IUEaP-jo8Ur9Brc7JS1ATwp7UR4Iq5b5fA8KWRKdiVjiNyXZJaFYQhvgE7tNDbVptwTjf1A2qH_SWS7yQZWFBroVbo8iCMIEn8img002t0jmqp_LY_mgKOVaKS7BuOUE5vNpq9hjCg86I29UoRuZ_6gL2jdp-oDM1lia9e1Iq3bNU-fF9wZot1oQ2CCKCgAApVoymu8EFMNtFT9epuPfS0oK1f22ISerDK1Dio9hwnlzbnW8=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6853378018&itemId=16335699715&vendorItemId=83541576914&traceid=V0-153-d121fcce041d4559&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=0&slot=6",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -666,7 +625,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7358013011",
@@ -678,8 +637,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "스포츠/레저용품",
-      "image": "https://ads-partners.coupang.com/image1/5MuPEqz6iu7rYdrB5DAy9K1_ifbFT_3N9-UTSfbhZlarbX0hwdwNKdvU-8FVqDnjqV5IztrwLC8n7WwjlNvY-IdSPWAqWrQ687UkIji1-fpNtwlKq0CE7Rop6h8owNL8DUnfLE0RvI0K3mk867-16BXe_iVn0_O3UjgSi-M6WY9sFIorJ_wbLj2v-QC0DdZHkwqqx3npIR7AA2f0BC93podjd-xTntmwazdSXvEQsQ5b0mUJf2NE8VuU6UZi1yx1Z90nx3v3JaGzNgyxNN11yJVi0VvY2YdmEBgIS8HNXELQqVv3F46nPFxROsa0JvQjT4LD5ISTVMd9mfwC7agRZPq05MrPAiBNSQavWbeKtfXNcozWaLykRum3P7vLpKrBC4Vb0JUhssTPKLnD-Gfaoa6YeXFpypXRdbppuKGUEAj_nBmbN839maDQew8-OOA9cLMhBV-rIcnLus2X90ZnCQseVkFhfnVFuUGBN-fBcK4J2TM5hi1O3OKAzlp4b49ibOPxyjTB63hEozh0LSJqzW4pL2KftcmUKplWRamhqdfAEqIQHZJWt9jh",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7358013011&itemId=18950527282&vendorItemId=86076793580&traceid=V0-153-75b702100a7d411e&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=4",
+      "image": "https://ads-partners.coupang.com/image1/uLg3PcfSDKHh0bmGuGZ4soDioiJc5z9MFFUVhFxmKeyHCjvz_TrcB13wi_AWBXa7GSz3xxuX9L_kVLFzhzT8_vP-C3pJtHxCNddWgoJb5Th-oJpWHc2lvgPE84yXeVPHJ-EjdIII7NKsoiDz5m0tWHfm66mb7DPycR9p4q0Z_V6H2b0RsZScuXrktCuvcIpAReiCJSVPNKN_z-ygFASmkfjmRd4tVOcvDGJkTPaILQJWuqy4Qgy1mtReJpJJVgpoYamGcO3uuy842avL4ePBl6ZfSXuC1rPzOQQxm2bcxFVW8HaNK_gkC1XuEpLCydOyo8Kx77yytACvTUye0iETsthgxOEaGrKjAtHXDivo0NrQ41ST5uR9pYWbZ7Xm2rdhD5_Bz2FfFPWHTRpH4P56FfRZcyxo96BNJEFQjAoEPz1wNLV2Rh-d03Qn2Wx8bORpWybGi3vVIwuF5iBGeHQ7oOwOJEM24FHK6XQP1Ph2qzZwd6FHxz8gG5Qh7B4gDUy9zLDnEgWzPWNWaR_kaBrQx41SDQJXVVUprY9QdhPXQbPDBJeE2fZMLqF4PtY=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7358013011&itemId=18950527282&vendorItemId=86076793580&traceid=V0-153-75b702100a7d411e&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=4",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -687,7 +646,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9737214605",
@@ -699,8 +658,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/Mq1kUnXWpadSS_crMgOEt5Zav5meNQYcJGx6csEGZo6dQKrie7_O8wT-Pg8kOgE7qpm9ih10i2BZwc9-Ad3Ej3atAC6sUMCRhdYwsBvWlWc3Y_976PPvDt5FDFZs4Hy1SzZhRBuWgFW3xTkkYmYzwZqmYGMWtk6F5xbe0FkNRNBV-C0pvKQA2IyDDo8M5qkvrCrr6Q2_OPIyrKtrvrfjjLAhbQ-hIRtfBAOlVcV9iGH4GX5aXgMjPxIT43r9ad3zM1q6uzeG2cOVtDKD9I3a4oEq1dNVGUxJUuVUVedm5LBANn9lIe3P1okDyCjWITl8r7nBHr4gsBtQ0lNfY1-s0FYP2D0ItE8728bwFDDkK1Tg8O_YxZrwuJpgwBISS9AJ1Q08d9kp-VrqKNt6134QAA-dm6sexjj-JAOgMQfcTgqiD00RBGEQFlDnMWzR7XfUho0XdCvBx_J7-m9bu5Z23n4tm8peP8uJ7Ra3O4vVWZ8fiKFPotetwJafHdbGC_YZsLCLUt0EjQPOMSh1UCHICE3_S8mcCSwhmKoKDsZd_Cpbx-m2WY3xFtV4qsa5igcj",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9737214605&itemId=29141444047&vendorItemId=96065019478&traceid=V0-153-d9840b9b80a0682a&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=0&slot=10",
+      "image": "https://ads-partners.coupang.com/image1/RG8Qf5iHR8UUgTUTRGtI-s4t_GrQremnQoxZLl-sLBSwBXDlghn2VvbVpG1ZrX596DWLJ1cRQwbIA4eugnX34L2Dn9AW4rEPmbjCouI-jbl5alnSoG5G-I51o1KQc58-iOXfgf_vQIhRH3a1KyJw61rcanSxlbvoNBmaYrEpjzliSmZfvZX-YNekFb1NAr44456qT3fK6xYYVrqc6aRkd1KAgHgi4LlHbFOdrF1GxuFclctd05_LVSKRsqM3_K5c5EyF3DPj-yPyAk_6mqCc7dGh4-4BJyt6EXVd2bkfXPtkr9MOvRa5wnawRB1Qufw9NeFGtctzZSxhn5QSBwf0jUrlq5X-vWW8dba6pBRz0sqL8qHiZIcKydOtHk3f_C8G_3x7n67nXz3ugBBCB5HKwQB12E1LMO7E77G5HnAJqNUEyNM8WP4vHs_yEtRxRFfjvwQLp6cTFLau4b3Eu3UvI4NWGE7jL2hcD0hdE7Ry4KAtNpP4orRLH2Z1hSeR4lSUf-NZsDf2QIKl5RAfZn3nGfmuvF0GrmmeoFa_juixg60-RKm1zUl5-bd2sS3-Ejk=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9737214605&itemId=29141444047&vendorItemId=96065019478&traceid=V0-153-d9840b9b80a0682a&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=0&slot=10",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -708,7 +667,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6704259032",
@@ -720,8 +679,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/waYF_jghu_kdv6ahwRyR25aG9oF69cJniFjdOtE__Se4KLxYXDmlAW-oucUOp1nHAmh09RycKa5KJemb-gO_x1cJ-pRY4Ve6Huv3mvhKbXmGd6jUFbL1OMdECtfBE5ASC37Ie-o1rMhyBYSIn_MAasKm5OiOYGUdrMIIrmtruzG5_gM132OliIcs4O4yBZcEuoP4g-sFeFmFr68sA-dDg0Kt89Zkc4Pap2DffqFyGN1TTDtEi0PoPMRYS193rz1r29KdQchELm6xbgGCrLa9H3jIjQs-gpnX9jPfVl7su9pstiewxLzdSxcgteqLCjkdNYF8HMkfWKj8OkIV5ndWu1SnVcKYLh94YomGjnZovOw302O4bxqRvF2AA8e3QJ8Ts2KhcBeeWN24Ph1yU8VL-_IELWk_HLgu2eQWRbMOJU3bQHz5doIodrNlPceNmpn2Ftar3myW76NfPPQlpWZY7QENGMbQlyj4p59tTYtgfYE7oH3gQmR-acCmLzIxTS9417O-o2bBg7nZb7alto19webj7R7FdGmGsu0YsCFpAdINWhuj0d4zyDlMuKd2U-Nhnfc4KtN5dWoAXPPLhgYVPGu1MP9YH08iPlt0ysLXiQ==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6704259032&itemId=15539699391&vendorItemId=96122244365&traceid=V0-153-acba6d3fdf63644f&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=0&slot=8",
+      "image": "https://ads-partners.coupang.com/image1/nq21zkmxew5Ce86Lnljj3bzQZsxovJ0ItOwCabNJZAdObDTbM9peem9-bpXl2QzvdtyGtboTSKUhZyUzJ7KSKfFuy7YC-ePLWl2rSRWd854bN5My980AWyoMqmfqILTDtS2ZA2VA2Z6WVxWORi0dROO2IZ9UjHtn3hWxtUxh3cElbw1TLdXNkNDsGfV2iBhG7vUIt6ydUp64SWsayMK1SfuCyaQNeDIHwzkr7P76NuZeKcRA3a7OGWJ1YR3oExgxyGvwcJc6HM2TC2PP2ilNEjZiCxVbK5csLI6PeCR8-QWEWT0B7bazfUGV2zJ5ze9F9cjEzHA3SMzR5qNmWr0M85ioGR1MQHaGCtCoAAh_flyPtaIvl8Xdt8nMdYdS04IjjhU60YWP0xU3mT45hUk3E9dPDA3nW-7JBkkBEso6yUGXM7-efvw16HQF-7lntcUOoJzRLLgMLMPM7ADbC92IdNrKxsGq6_l26SzKJUK_TnPwf3kTYFwhXdvDBDjpkZ1Jn6cqYGKZ_1N_X-PWBUWqaho0Tf1Gfv-MyAhzD-NcOb76vqJD6LlCkxTSlue8BCs562Vx7t3wXFTrqp_PWIaLHRA96du09djk1dU7fTtHTIA=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6704259032&itemId=15539699391&vendorItemId=96122244365&traceid=V0-153-acba6d3fdf63644f&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=0&slot=8",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -729,7 +688,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6458262639",
@@ -741,8 +700,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/_k6yBsnXY1vpC6aA_gnd0TEPfUpxcpPopIirKysmfERt4dxxxhs4gRoqgxhXCDxnzV6F06Tzpy9X2kWInr9PToJWJ0l_3sa5WfrV3SYdws73GLgEgiOb9zhSKpWJDAV-zg3-nQ7Tsuu8cQKjiBR7xsVjcmulAMtjUJ_rnKzbhVYLTuR7Pd5ZPDVS8PnXhcGGtvDd3BukwxFguuVO3dOUYV_gRXORNeYJ67fVu1vzN__YyU-6L318G9tKdjAEQc7HvtELAKkollLxl66hN2c3941pQeiFpJOcwCcyYlat6Yu55sNyveStRFiSFxkjzT-EM_HjekZWNPdgRBQfQlpdNfruWYCpJiPyd9QAoUKV7l1wt3kp99lPbEI6YZ7jj_Qbf3oHE9xg_xaEEJwfBBV5r0NfqQ2xcmpBpzxwelIHKj62a3EKQjL9gd7YrnvbdVaKuD4iwdGNlo6BOLxPgRgHZZIeUxKzkIKqVELiKLpTa07fj48PJgpg-DcREZBHcsEKZj6nO5yct591CafACmWV4KC5g-sV3vat5ViBrspXFT6eIsTeSqSisZfC3KM6MQ==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6458262639&itemId=14045718625&vendorItemId=94195402610&traceid=V0-153-6d6d499e0b26305e&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=0&slot=9",
+      "image": "https://ads-partners.coupang.com/image1/bo2pBT46xhNwSaSDbvEpAxG4pNtnwciQ_KtVK-25iI1jS8jOVAhinPYFykYwVfeWaAvQjqHRpuN65UN3_b2sh3eWUgT4PZLuOAEIITpvlIGH-xN3Lk0ULvlB57efM3Yo1pAZUYE59imKLI87S2dJlr-bcBn9_xdWZFXeLSZutORWE5e81UsN_fhTuY_RBlL-dpagomiJGmhNGJ4GBCUvEqxw9R9lS57nMNKgZ4bYnPv77Cet8PARB5Hh0a61_Kp-bGPcrjIzQDseodNy9ZgZe6oUh8XiOQ8DRLrtLgrYlT6XRHvENCADG9V9g9IyV6anF9kvSLqeA26FhVZagp_nSAWe89TyZIPH3HtgtCtVpxjhbaLdqh14BdsjNKVvnPFj7p6H6ytXaUgT1iArP6I0enF9Cm7IZm2ko744MRWYsEJ-ZcDZTH2R-QZny3gHiZ0H6__frOG7d63ur8vo0Rt3pCaonZ7tfLe8qp6DnA3KP8-CFdv2zMUD8Qznm3kc-HQsjJnWXLaEde_d-Fp2EoU9insSa0NGDUBSPawrKQHPmdBtksliqj4FEcfEM5Njwg==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6458262639&itemId=14045718625&vendorItemId=94195402610&traceid=V0-153-6d6d499e0b26305e&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=0&slot=9",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -750,7 +709,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9619418024",
@@ -762,8 +721,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/seVwfQVYGIRVtQNdsfjZjq_i7XFGVATNXesh0ApNglyAh6PRkaJEvaEjLDy5VU2W4UhjWqbIN5BWX9OQKzTxlK-b72UYUnwVZJbkgnxf3ggkULG7nsiRYyFLyBiUyHI3PYrvRe_ocVYVNERxKMIGSEeDGcBvmQ4L3HxMC1VrXJPQQFhVGhbq3dblA85Mi2Ol90iqhUUFmfs8XaJJI737oU8iTcxG3VipmSPrUc-mMLgzusN6hFpadnmG71EJbgcr_nsai4yHpUnVFNrznF_EcII4ymza8cYlOm578GBp8YozqQrFoGQ5_bA_vmz12zlsG_VYDy9eB3sxfU4RoYhRai_3KfnlaPuxaLYwz3p3XdQrv4qrSG8nI_pPULVOdeUC52o2Y1v2Jb_7r0COyNMFm2-H9Gv0vmxtoTrCVSkV-p61TmOLZIP_lfRIlt4CmYh1hJZwkvewB0PNaXgZs-6sTR_mYChxjsTBf5oOQDVciJQOzEIm-JYELZZmCDgOsIqQWi2u5ndXvvDlozoxMVejL11GIC1Mae3ntRaVlJgQ3BXuQn6V",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9619418024&itemId=28724325555&vendorItemId=95225872201&traceid=V0-153-aad41460a6101c29&clickBeacon=47108e50-e032-11f1-8c5e-8e65443b719d%7E3&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=1&slot=5",
+      "image": "https://ads-partners.coupang.com/image1/b1rguU_dmrYwvPnxb-fd02uIciQejBNDyLrnu_6th8EwmTUPTcy_qYVarFQURcAaThNq4voXhKB82CmI6Wv_PvM-lMOL8S705G_yWnpxTOPEjezIqP__1cG9e70Q7WV21_oGy7i8vJcUDVx94ZhpgJTMTC8sktmeMILW7LePyWPVJx_qIp6FtnDQD9rq4hf2S4M-0RdJPIqGp8-rUcrBHi1DcIdj5VbLFlkgyMMZmkQFsl49PsT8eNiTDfpoYHqgNXGkUWygRvWEHgfWEAjaUp4aUML1kNLv7_y89zclzPiJ8-O0NgC_t1iOaJd_TLxkysBsfgVX-zqZ3ka3q9UxxcJzIdNWko6H7P7H7CLkDL-un1sU3MkS7p-z0VWMnpFmdc22XVWeJ81TM1nMeXlroJivd_IdD39_BnRBhkn97DiMGEdJaJrKWFPKmTEXT8yDw-ySI_wwaUAgHdufjY8Gija7GPfmvW9jR9g94IgWAr_4YSPRwDzJX5vmKndAuWgxelCk4Tj2CI-V5uBZZlc0MOJsuDQdWdtsnkWK5SZVWJp2BvQk",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9619418024&itemId=28724325555&vendorItemId=95225872201&traceid=V0-153-aad41460a6101c29&clickBeacon=70944d70-e032-11f1-8615-7ec55825fb4c%7E3&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=1&slot=5",
       "rocket": true,
       "free_shipping": false,
       "tags": [
@@ -771,7 +730,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8717237250",
@@ -783,8 +742,8 @@
       "category": "반품·리퍼",
       "category_key": "refurb",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/P2c2MAucYu8hEcoQPwlm6v8qWjY8WsgwvBN-x2AQuiWr2V_3ZMNRIzVEo7BDEGPNjQefaMMxLRbJ_17bcAU9w4bKshXyGKBxODEMSAazoQXx0MWu7PRgnv6lwt3mA-VIEZOam3A8c52nq-atu9EZombe2BosHxMcWleI5GpjIh45heSz9R8SOSY-m5hpFaKw7ANdRvRi4B3WEIqFARX857yjgoSe1GeKa8TwhexCk6DOpjeFziMYus1BOqyWpekG32Vhg6De8U3KcIfWFN89h8JPj2HibsZjjNvr726zJlTGDY5rK98HPi0xQdV-4P7Aadznrm_m_gQV9g4jIeY8aOPzkD8ne5ojVyQS6yj05JrP-9Khis2iFyDyjN7uM08qItGAfCC4fxgLJLNM8fA_CsQAn4B3cfY6kjGAJmzx6JQVi0ZdPriCD3z_YZvY6DFpEs-4_09PVGHVrFECE5kJHUhEG0DILzomln_Kp7UPxNU6-k2LSh1BInjUwP4U648ZxH1_1pn268qcWmVKSdDJK9LmbZRU6K88eWBcI8nvptXoZ08hwTVDwtVQGm5J",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8717237250&itemId=25319216662&vendorItemId=93935509690&traceid=V0-153-e8c814bc04d31843&requestid=20261114224957015285709108&token=31850C%7CMIXED&pt=0&slot=7",
+      "image": "https://ads-partners.coupang.com/image1/EL8KtZMoDVjm2yK5EEP2ogDiqtIoRVqNCy3OI3WrfAKwGXFDLq1ugQWaNclBkL2Q4SiaPUE3mVYwZXHQr298sb2AUXPr6wiM2dWi1SfwRLcY3xt-IJyGahb_AlnUcU6jOdDc4h9l8A2BQ7UZXTmIKnj94l92EvRDb7YTi8zcArNiTYFJMkBSElPq5E-6kDcOIjcqcP9vAwhoJWFmqPSjZTX8Cf22XDMzfCWWnOzq2CoNwyoZ39KkZCyLehZidzsLqk-XRivffLHm54j9pXlrTpVPYGWo_o8sCFH0fNtxfjLkr_Geq3gVkjPxS1fxMnnuMLsUl-BC0TPei9t0Kv-2GSkV2_EsuEOAuD-xT2S2EHdsh9SO8ZmZ062yOa4umrLdq1ZTCsJHUSmgm7mz9mTGKhsJBGHSxjNtq5GTVtimBuTkfz4ztARw2ClE4utMNhwuXBX_arK62XPWVEkEolmEgpzq0P1lNudMzjUjvGkTYGkNvj483DEAdcax0dczEYdzqQBH_fGfX3N0a0weF9p9Mkr8zDhtPzwfWWMNLgx-_w8hcDnJ7Kp4uCSL3Qcr4Q==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8717237250&itemId=25319216662&vendorItemId=93935509690&traceid=V0-153-e8c814bc04d31843&requestid=20261114225106670163635896&token=31850C%7CMIXED&pt=0&slot=7",
       "rocket": false,
       "free_shipping": true,
       "tags": [
@@ -792,7 +751,7 @@
         "반품·리퍼"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "1257342889",
@@ -804,7 +763,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img3a.coupangcdn.com/image/retail/images/2026/06/17/12/0/27021bd4-b716-48de-bb03-812624f829e1.jpg",
+      "image": "https://img4c.coupangcdn.com/image/retail/images/2026/06/17/12/0/27021bd4-b716-48de-bb03-812624f829e1.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1257342889&itemId=2258105672&vendorItemId=95624267684&traceid=V0-113-66b335213fcd4329&pt=0&slot=49",
       "rocket": true,
       "free_shipping": false,
@@ -812,7 +771,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8394671274",
@@ -824,7 +783,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image7.coupangcdn.com/image/retail/images/2024/06/05/9/2/c0a66b6d-2e84-49f0-bfbe-3f011a43e031.jpg",
+      "image": "https://image1.coupangcdn.com/image/retail/images/2024/06/05/9/2/c0a66b6d-2e84-49f0-bfbe-3f011a43e031.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8394671274&itemId=20698135670&vendorItemId=90199798269&traceid=V0-113-11fcbea058d9c3f1&pt=0&slot=50",
       "rocket": true,
       "free_shipping": false,
@@ -832,7 +791,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8011542256",
@@ -844,7 +803,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img5c.coupangcdn.com/image/vendor_inventory/147d/6ab8cbe9d796e57194eafa46377cd6978d61081e86c49cc94ceb5a48ff57.jpg",
+      "image": "https://image1.coupangcdn.com/image/vendor_inventory/147d/6ab8cbe9d796e57194eafa46377cd6978d61081e86c49cc94ceb5a48ff57.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8011542256&itemId=22352360578&vendorItemId=89397453735&traceid=V0-113-7f6cfbab0a4feb13&pt=0&slot=47",
       "rocket": true,
       "free_shipping": false,
@@ -852,7 +811,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "4604878225",
@@ -864,7 +823,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img2c.coupangcdn.com/image/vendor_inventory/0fe9/43a78d28d01977c1c740cd27436edc21e17efe141add062b43410d531411.jpg",
+      "image": "https://image1.coupangcdn.com/image/vendor_inventory/0fe9/43a78d28d01977c1c740cd27436edc21e17efe141add062b43410d531411.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4604878225&itemId=5684276777&vendorItemId=72983142950&traceid=V0-113-c9ba0e2161c6e2c7&pt=0&slot=35",
       "rocket": true,
       "free_shipping": false,
@@ -872,7 +831,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6784715012",
@@ -884,7 +843,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image5.coupangcdn.com/image/retail/images/1739905866850695-52c0e620-29f6-47c8-9f08-66f8f62b67e7.jpg",
+      "image": "https://img1a.coupangcdn.com/image/retail/images/1739905866850695-52c0e620-29f6-47c8-9f08-66f8f62b67e7.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6784715012&itemId=15967393537&vendorItemId=5493101444&traceid=V0-113-70e181a43b411328&pt=0&slot=5",
       "rocket": true,
       "free_shipping": false,
@@ -892,7 +851,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "46928564",
@@ -904,15 +863,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/W5HYtsQFuAa57tZoW5HXk3DtRDRvgzgyessyqTaG4bEAxdpJge7F-T_mlolapcWS5_gthL8zFRPpUfXm8Jtho9M0BhLJnmCiQUiXjWwwC5YHH_KZyOMMBfJz7CqyH1C00K6UQVpm0MfxcKslvRLHYjPKE6X9qTRsqGFVVzX_tn9nIbUqdq07VfB6WOcHb8uSCnkMFjrwxRYS77A-hYB1No7AFHJQlwfvA9YAsIcFRdWmZsygmuhur3elp2LVzlCWrTwf3VSUSGFRdRAaGu3uu8UGm2NlOyJhvc8r0lsdRG6on6iiD5huT_Ol1kNpmSop1a9yk6yj_NIHpSEDtjHQgTpvXmccSD1UIaukF-qrj2j26piI6C3Q1kqF1b0WQOS7m9zoG_GX7Bt9Jw8MmoYR2ayKPAW_GJakexN3f58tevZWuDQp9oBSM77htj1uQ59IymqL2ao4mlJRC6mXvNnAULWKkYJbmjv-3JqwyyOonI2XPKH0Rgb390KbrGrM5nqnssh_KBuXOqcMoiTLEQ7S4wdf7Cu9E4BlfWUu6ISMBl5eJUzSh8-7fgeLXTA_GQ==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=46928564&itemId=166340800&vendorItemId=96214093714&traceid=V0-153-0f83d926e06fec1f&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=10",
+      "image": "https://ads-partners.coupang.com/image1/38rbg_asyAeG3iKI32svUMBdjcwPGDnBzoenEhym0DmMQVf6j2HKMHp6IzJ11Xy5dZSqHrJ9NAG_daMPB2YymcUg4BKgpli94-U_wEieyfqACVGv1XFZpw2zrPIJeCwpHw-Ow3NgbE85L_lLu9SJ1taUpcFqv97uHrbRP_jMRXsqt5tOxvaL6tIAvWw9w9BF5D5u96GyZgEkMMwsqBnBoc1utXLX0UZ_MMgf9mTRJ6HIaEbPAlkIuTuPtkiZauVBFLcqQOme_ldZmHLt6wSxZ7Nb6H13BJ1fkUDLuUSvnLFC6cpEtMDgb0qYejPlFxDgYJDyxvjaZyK3llPzmpv-j5Fv3KKOBGlM3uteO3b1Tfb87Py7RmOUjwsZ6_HrzMqEOdhnJDCoQFILTn_I3WtAvaO9D43cKOOfeg_JX7rwoT9xfSW0wb8raqEuj8UuP_1tjuxbPJJP-aWORPVIF_7xa-vz6wdig7-RY-wJ83NCkHynLXpy5o-id2lU_ExOpytfe-1ME8r_te6O8rp75qQO-ASxpwo-dVBHJnyqOlm_7XBACdUSw8agCBcGyxHm",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=46928564&itemId=166340800&vendorItemId=96214093714&traceid=V0-153-0f83d926e06fec1f&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=10",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9296835735",
@@ -924,15 +883,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/xuoMpDQID5TQ7e02xptLovbYZiKXPwed1YAVZis4FG1pmtobgEajuyntygR8jtY0VYvam-0qzALnbc-coNSfvdXqyxKHlFpkyOe7hOKJ3T3TeoldzIc-pMu-dROhPrAcd2OD3-hxbxVlzrTLMi0F5oiEbFx_N7CAM0iRGR_zSng1qMhD9JuYnPd1qsKvp3QJH3A23Y8KvVkOnGY-UmyDKJaod63sqXos2hpG2Of2UAW7fmGXDaLDORZQIyE4irbxWmG54yyX3dlQ4UZOXkRaYtYkdwZliSynuPPkeVVge7iHi_ynQF8hruTWI0lYZGHMo9BLpcvouDQ68i0TCPN35qaLXqK85ywzrV8Gib95nzo9omXfn1R4ZbtB-496V8lbsLx76e_7d-IFXwrdePftqgYeJFINjBFZHV8aKTOwwb80R_UNiZnI-quo1X9EwdeMJTkV2B9JLFq6tNOty9u241UdNkE-xDVcdQTPUCYCaYDwBuTp39o3aSeI9tVwphYo6a0Jtgk_df5i--uqEnyN1_d4HDUbzqgE9n-rAkYLR2k0hJPvTSWBSPVPr_OzXw==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9296835735&itemId=27537749548&vendorItemId=96295442745&traceid=V0-153-88ed6032d4483a7b&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=8",
+      "image": "https://ads-partners.coupang.com/image1/qPeJ3YVeRb29lEzsqHpk6aMm0vsK_Tt3zK9thzCp6xURtcXV_eVXHSm6f-0u9pPK1wBO45pTnD19_YD7ZINDGeFIRjGEV8tye2-0I9AAbbe-pKGOtSbUva9IQEOJRp48G1_EMOFDwo72Rt2deGwGblX-TKSRw5PM0E6znUI8CRxBRjbIScf8GUZkxAw6440L92r8AwdHjjTRo4Adk5iPK5CJ11hriDtXKkjYRb97wqletJRw34IyyHqOKnLQTSMnPqbqe2btUAXMOvRxgmpGpbEs04V-tm_atA51oO6Fw-ShMSByPrP4_XZNLydwAvqrrZE6j4Zlep-Zov17yvd9RpTXJG0ez7mD_gfE2fz9dkU7Gk0qiw7gTBNj214Ti5g0z5n00baejM4USD1P7Jcnkx76nc8x7feKDkrogp7B04o4pIh141DChU6TN3MqYs_1CgtsxIz-AzAl582xVGtDYcDdDWTs9k-sLa-lfhlQuM_EDj8DSHDo8HwZh475J3RNdRRKptpzFC-G--z5DrcrbrcUu16IEwummkmhOxJxky9hfXppSSQlx3LeqfuYYQ==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9296835735&itemId=27537749548&vendorItemId=96295442745&traceid=V0-153-88ed6032d4483a7b&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=8",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7857920893",
@@ -944,15 +903,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/dIolaSI1-Q5uQiscdJ2fOmkjOq4VdHJCzNnDR2FLV5cG9dUdb16zfFZ-X5xYK4NjBtZPwODMTgLadG2UgdS0tkPKqbEJAw0wK5omOHloTdMcHMho1eXynIClQKbTE2p-4ix461HMx2IpgLhc3NlTQwcmk-HT2zDlzOE2fld_oR6J3f--rhWjUP9tt1cGoWVLPrBo64wF3xjiMiz0dqos44Ew5X2fbiSzEQZ9M_cC0i5NeZ_3rtXYluYmWPVJqMscLscTjiiOt8pc8SpEs-ig5aWvtvxXQuMNRxOp-kSKcgexJV8gF1Qap2gJ1evCqf3K9hQCXRHx5Hw9ADpdiLLZqAfRvF0SNjuhn3f-FpKWTug3wVnO7i6gjRni2-RQYAg6fLf7L5jRLcb_anMnxMp4oDyhp56cEUZnmn82uCGrzJs1WXnkHgecd_zoxoC7_VfqyQUhIqUmUtSAHYYR-UCgHUatpPV8I1RJYUtSXsKvgXDawBbaIoYctAPEPoxR-_YCGV9pAP0-ZoXOKSwbEJjwVOcoVD4uiocYSwOhgopFv5WBTzgGev2V2kcc5jJbcg==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7857920893&itemId=21436152877&vendorItemId=92529187112&traceid=V0-153-cfd1c35f8e689676&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=4",
+      "image": "https://ads-partners.coupang.com/image1/-4r7hq8dXUEEj4CU-5qQDYgZ5qF3Z7gSvu2Q5G4ih05tFADZr8b5yFG3KVIEQClUHqr3zEVuRWEQiGW0H3s2fMN8Bj3YZFUMmBdTje7X0PJpLlVwkVjCI-qNZmn13mGqAmrtm6PtekRr8iKgSyai87woBt4P0bxx0hSNTEUJq_uy2wmleGKgb0mxB0gW-Fn9ORw0LSOXa9j9z8TGyoR_diS6A6U2qfYR4hUkksrjGnmJsqvLBn0Xt52Th39XAJkDBfkgBbMO3-kIp9SiF2FxI3HBlmza3m8gIY-QYtqvMVmhJ2iZiMu2n29LWDS0tFm8hTdg4VzwYACPASrVTGRT0AZQlf65-lRYePWZu83YgEtdVU0sElJoyQmOn4f1dUyti6FD0-HPWr0OIcLe_SELvPTW2xR4ZZnBFdGce8pASP0CWdbhsK8Cpqg1p96Zf1BZjxYE3Fh-OXSwKxO527AaPp7Ib110jm6J35R0VLIeR9sheQuDvmP3ufUBLKZXfQHNJ9AunbGjS9F971wzsG8TBg3e9pLg1jivcCmStk0kRQJfYDN8EpYgF7hJgYMP",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7857920893&itemId=21436152877&vendorItemId=92529187112&traceid=V0-153-cfd1c35f8e689676&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=4",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8106270209",
@@ -964,7 +923,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image15.coupangcdn.com/image/vendor_inventory/7a65/fa897b1f927e6742d8a68adcab59725aa439f07836f2be9dc113ca5ab332.jpg",
+      "image": "https://image8.coupangcdn.com/image/vendor_inventory/7a65/fa897b1f927e6742d8a68adcab59725aa439f07836f2be9dc113ca5ab332.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8106270209&itemId=22947179438&vendorItemId=89981484435&traceid=V0-113-ba85b1c9289d1f3f&pt=0&slot=19",
       "rocket": true,
       "free_shipping": false,
@@ -972,7 +931,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9729244277",
@@ -992,7 +951,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9729244275",
@@ -1004,7 +963,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image9.coupangcdn.com/image/rs_quotation_api/2j3xod6k/0cd2c680f3834549ac73842316fde7c2.jpg",
+      "image": "https://image3.coupangcdn.com/image/rs_quotation_api/2j3xod6k/0cd2c680f3834549ac73842316fde7c2.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9729244275&itemId=29114723174&vendorItemId=96039310972&traceid=V0-113-55314e6de92e3973&pt=0&slot=12",
       "rocket": true,
       "free_shipping": false,
@@ -1012,7 +971,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9457221138",
@@ -1024,15 +983,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/HEutkmyLsrNwqkSRHBVBV-X2nompQ6ikWGodELAexb0L5V8ku28A8_8Xn9Mwm9RaY_ih5LwWUGEtQ0KLAS4a2sfaDjKkB_Wp6ez21vbZXl11lMzMFO09mjrcWufdR6HZtoiGefh2DA0CRCrlRCkP79_Q3KIiICAl7AMkb52gWltL79bzbsCZjiMmQ5jb1IC5QYFNVj24hllar1LFcVgZPuowheUvhE39AkI_6qxVRdqLfaDmHSYquvidf6gpx9W_hG1WZANeZh3awOyD9FZz9-tJTELWDHkNgTZXquLiU6p_KRv8IQVLvLvkSDI8n1rZzAl4Eja2WRaO76N22wOWPjaMnGv_CBAb6pwMq2TLx-4UjlFqYD-aaq5HWzkfznOw0j_BepHX6ATfgEgS8qy4gpQ2ZbeZuLxbulTNuXUCwfhIEaZlBW1AhkKg7wEM1xQBtrwb3tIzVOwsG5oZuk-b0tSK5F2wJXhKhQxJqLP26kUnHJr0P6VabKTpDvFyJ14QTyXBx9Tn4QU4XruhVX5DjqDF6l2C2kL4Nxqk3XkCxA7nXUjXiiq7lzcds14=",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9457221138&itemId=28139012002&vendorItemId=96309809160&traceid=V0-153-0f7c70935d544743&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=5",
+      "image": "https://ads-partners.coupang.com/image1/-l3TJJq9iYxR86i7-otDVq3zhJAhQPdjW6e-It49HSk0kk7bxSEYBg5U8d8M4CcCMkgEGwjrVevjcwjkyY-jykrXqHYaCC3HoMuokmYC8HCF6JK_RsJLN-2nCzOHPvz6ahXJkDUJZ47h6XUdAxrgig1KCSPxDLHXu5Z-yA2JH33GO0POBD-UYsMsd1BLXet2Q5hSdPYsIogJyr4qqThcUUKGGHf8o9pQ765rQhPXiM6bxXyo2kKb03TbIGjC_pegglZtgZe3QcbjxseEJtPTxlQ05liv-G2n_i_ghlIIiI3Px-VRAcpIiME8fZ6juS4_0k7tc7J71HI3bJEOBkSKHfR8YHEN6ANoYV0bDFoLghfq7kZDSYNNxYXFmtnbDmZ7HG6bjurPgXujsEkLsCOE6WMBhqhooWz-uJW0WXNkRE3y7J6ZNMPc4Z87UmpO27H6nQUORYs18Gc-mTqxmvAb-59OPC-FcSATwQiJL-o-HUEaUN_sXAwSH44BSQHSazw1_sKsnR4TuyDFR4BzkpXmN5LHUVVHrA1KqbFEu4odErRG7gYWgzpSnGBY",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9457221138&itemId=28139012002&vendorItemId=96309809160&traceid=V0-153-0f7c70935d544743&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=5",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "9024163013",
@@ -1044,7 +1003,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image15.coupangcdn.com/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
+      "image": "https://img5c.coupangcdn.com/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9024163013&itemId=26462308675&vendorItemId=93437588392&traceid=V0-113-848acafd9e852dbc&pt=0&slot=2",
       "rocket": true,
       "free_shipping": false,
@@ -1052,7 +1011,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "4665570476",
@@ -1064,15 +1023,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/-Zl_vbUU0RvUQxqp-eKHNdV1Ps4BwsCs2a1xxXUALWPNH-AxCvJwKoh-DKsiu5ZZbqjvVU1Nako--imUxflnJDexAOjb4hfqx1RgaDiV2TD-rNiKXstQJgBP8KtSDJvilGz3SEIznXZx6hGOekwXoAxCgAAybrGHnZqYrBWXS7YOVF4JeMn_RZExR14vDgV-HkNo-0IOHcxDpj9PYZnDMY-MTZfi9CtyX67WYo3DBgkFF8U0jx0Q-9Z0UV7clgIt0V8_JMARwk9ukjCbr7zmTN78aRApmCs8buZzrtbv069r4oM4vx4xv-Yr4FI1AlhqiSOnhVO1RLcaMOOs-WyR8O6By81OwNtvO1yGTLNwIl-FbSueoGfKVowK9Ors0ij9L-fKXu1RxcWAZhBbaMXDostQ_hvRqnrTpY0OEV7_pD5zSUX_l9JHhtMY5ovToeOBfWBPzDDFwULU4LAtceFltrKIGzEboKQoMJzZDf0MR0oFNzlw9k5k1CIabnyDNmlDtMxGz5Mx9W1j9vRWP8LeC8zX5XmfEgNJ3_7mnkF11qRFiINKNzRRrAknTqnnuw==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4665570476&itemId=5828195896&vendorItemId=96213494889&traceid=V0-153-8cf434f2f556a847&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=9",
+      "image": "https://ads-partners.coupang.com/image1/Ob-QZBcve6erkq8-OcCSVQvihvbumrnWsu7k33AD2JdfAXQ6tKl-1uZbSt9QYECH4DhwNDp-B2mORwf5rPjX-UiYqNscVA4wRU7wv-3l4MjKrdEvV5dRhFWjZfBCfGg2KuI82YvAUdUoiMS1CwQFLEVWJHu7ggrRmImeyKSR3VquYYersqmjQEmBmWzVGYTnSgPxVZMmBwlGhrAH7-x9jg-ZuJ5yHtOXg5cJ8zHhG6z2AOv1MKkQvUMRZxohZ-VSnyAL2RAmeZT6MrD60Jglltz7xAbkMDNgXXlvKnC1OniI4P-YXk7sCmbrouwXU-dRNTB5HLRYvq8jrv1cUo-RCuO4fycYM0Uxb1O3ElxAtS6627mjSoY30_Ft9hnie7xfKmDOJrPeKrWMGLjs8N7AbNcXkYtFIphc9eLoKyaV8wqeH5yYcykw_3ay5Rk47Wsbs88paQ4cz2ufPTgVta8XKuJQzJIJrQFx6wtdZ53wnN_0YbAtuzlVSKvH3RU6yFzDKXLlvOTKcbCX6otLYLlXgXLswj6rRUUcwo43hWDzv49h3UmMul21X8RfXtjP52zi",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4665570476&itemId=5828195896&vendorItemId=96213494889&traceid=V0-153-8cf434f2f556a847&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=9",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "7750665134",
@@ -1084,15 +1043,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/Mu1jxAOLPFK2DIsIMr4MsnJMhLb1x7WzKsEzc-09btWdTl-x4BKXTwXT9B9vW4VGzNIKYzZp9ythUlrBtchudoHoPz9235HxVtb4vqvFetU1wMCmS4GzRvJqgklRsGTOkuY2oxGf-4jLo0zxUwzH6FyXnamkiUgnm-2c559-6wl8A1vAaaF2ONVPXxIvaP4Sp_IALYxf4l2MwmRQgCEBHKx-ZtIr8fADd-EO1jOFct0vM15AitoWgmJEKadxEoLgrBypZwo8YpZ5iCMcDMByKanAoM2mSBVaYgw4Ubz3dpSx6HS0uAGO1zazhRrAtTd2JkgcDgazf4mV9DT4vf5E1d24OzzQnU75Q47jP5HrWdZqFrvSNWfHJTzOkVPC0_37a_rjAhup-7XqXsIKnjm8piejTHUajun_Kgzah4MNZRbXp_6bi1aIcJuRjLl044zuPtBTBF5RXyl_t2pWl5vMtR_VSf7ndHG_8WuYNGYnInoxBErSbWch8LkLRJnY2JzcH74fESZ2CbOSz-qcgF2MQWRgxZHNLKiJUMsqpmsmhE77PHCwhiGB7B5SnRLWPw==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7750665134&itemId=20876142974&vendorItemId=92323599576&traceid=V0-153-14a2cd6c3f78d8e2&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=6",
+      "image": "https://ads-partners.coupang.com/image1/aJMAa6mxsPKUPCU7aJ5kPrcfANyrziik5RwUj88XVbkfxn7RVKkDUXuHQdmr788p3-yQGBaIhYoEuKbBAhJY_bUdH18fOxV7wgzaHcnbzZ0GGxnbhyklDzxxHvWUQ8y9BmzEQiPNzM9Qj8W_0uQsF2b6IWrIWALX7nmOHTHcavM6JPU9D3ExWsjLjCWM212hatk-peR5tdKG3SBoAktn4Kse4nYIHyXSSFe7gAH99yIu5uYVvoEA4y3dYxE68RUw8GR_-qLcVH0MkKvVjhwGUcgdvehF1hKaFH9skrbtkkTNrK4cASKR_LKWK7v4uxoFFbMAhSJLWcN4g2CqmgO8XJ1S5j1HlJwBCLE-fV1OS2s4sO29ispis7_XYgtN-BOGvAnSTy6SVNc0sJmRxNg-g33rYgPTNtQzD3xFNP6BWGJpgg9UfueL1Tk1jCUsWuSltnXcTzX1W3eUW6yNf3Eg2_oOocExb9qGZ7Nz1sXrBlcN4RqAidyVpYt194rBAjhRDhNy9zAXLTkxuX-s_M5h1J7guELL8HxCptPeRm7GI2kHF3E5Z91ss1tmXgg6",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7750665134&itemId=20876142974&vendorItemId=92323599576&traceid=V0-153-14a2cd6c3f78d8e2&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=6",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "31303992",
@@ -1104,15 +1063,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/CdRsh9oqcOyTsa9LCZe25LIylWEl2eGsQJkdYUvoOxHVJKDn8gAamSfVw7YNtxzuYSV8XFvRGRkxDacayoOXywZY0lkbsz3BF4L8NvJNh3mwYD7f1ZgwLMI1nKNqOmaEbos4mrhpE6XY2nzpo-Dv4gCHfnneuHuti77af5KHLv56dw78_9ybXeBf5NeIAmXSTZzCxWqkWdmqZxknR0aqerdNuWCIszTe0jPzpLmU66EZRJwqOuZKSW1S0vRhqOlEqUswVT-PvOlKjkavw_i5M0AzQJCCy4rcSTlrojGMxFDgAr6zcpI55SWcEpAyKSdtN0XkuD-5kcTKBm9K204hikyNqzTmtxxHaOZK4macrGAMgpKy-epO5dJjYrdnFoy9Q8WOVuGg0Qh2HgmNPDdEUTQ3z68SKxG9BnC8luBfS74IJWsukjIFzCa9jyKc5oqIG-wvC6YXcDNtLEGy_5AmjlBgwZo0i1rTtgjk3zSDL9ed-EXIar2_gmBrYhN6uxTdKejC2oBvXlEXkgWfMx0RDQYFzvxehnwF0-NfdbYEgIH7LqM3ksOw9wfrxbCpig==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=31303992&itemId=118300423&vendorItemId=96214195712&traceid=V0-153-4764d71f68ff9e79&requestid=20261114224957924281154289&token=31850C%7CMIXED&pt=0&slot=7",
+      "image": "https://ads-partners.coupang.com/image1/CG2b0krxgFSKfFVaCCM3kPGFGNhUo2e8EVccJOi2n6gP33MdkhB4YNynyfVL4vJF7NsFoYFQIzQ5qpASsp0wLGCDQdvYqeWlqpcTBLmwIwrxZgtn3VE2Z7WkKif7gtAfXw-REckXfDlxcZeiv70F2MBgA0rJ7mYRqDf7isIbfO_mciJFc1be6KtrA8zbPQwUcuM4kgJOGq_GezogQy7tVVorRiJ1zpnWSbZaMKe8OObtA7PCdcU-laTPHZbWmGISBZO_jE5oS5jUY3IMB0Z3VwdnGGUYh0WHwFgpaO779TABsLyZKNJneWYVFQRZsEUF9hYDKCMICEH3lVIqodJkgks0yS6hnr86I14M3VWSvlJKFWyU8bCqT8fIgdGJk8AsmkY1tpwLsbkPZfoStPNt3jrrOYJp2ix2Smk5kfx_s4z5T9AMfmNrjDWxYIC_UHZF4H7JRhkKDJtVX2D8-ip6zDU6fJ-AJCEkLfBpAODGduvt2pQNwgVovdYXeJkNnVeuNilOjXIU1q3nxFedAEdfidOrjwNMLIjO21G32PRtvNZhFlQeq5Q1Xd3_cf39",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=31303992&itemId=118300423&vendorItemId=96214195712&traceid=V0-153-4764d71f68ff9e79&requestid=20261114225107660281150836&token=31850C%7CMIXED&pt=0&slot=7",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8676244920",
@@ -1124,13 +1083,13 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/rq2PpDnbQlIQe-sHriHNvFVsbvleWuY4uskQ69y-138sQ0MO7wS4JFNZ21wCOcqus8hrAZZWlPk9rDqy69qJwozKqHFq4BhhwfoBAj6nMQAVxfQTXXNHvnRLL57ROSZbA3Yr_YUyOpNcMLuAWyE6NzhqoRIY6cxrwNByaqbumfpxfcMQrrUElcsaTbntQ_vL1DhFGBuS1DZcyzQ36Afk4zsGAOsgDd73Mw-kviK8-yK6CdlNMyfCPxVUlzhPPXtmaJjr_pUMOTVAiLPpjGXDSym1thgCh91th1_S3RsuIniwi04Qpio0SH0BnCZXseWGRAACIK-QSoESE69zRy-egTcBkJ88HnpxYjWzRGXKpOskLXepssXukH9EXB2-deQoJ5BeC0BW3WLZvnzd3baaIGph5PFkmfCCBhsTkl6bD55gufNPbfUrHAiYEas8E33mPLV7Jpc9k18QVujxkNqU1tb0GD_Csxo2p8WGjF0HJP3i4MtuQT7lb4jOnqktC2ghYFDImrhicjRFSud9wIXJc0m9hx3_fwWztb8RSISoEOOFH8hOjoRod2WIwQ==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8676244920&itemId=27144540678&vendorItemId=94112414675&traceid=V0-153-48e02b2b1cdc1aa3&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=6",
+      "image": "https://ads-partners.coupang.com/image1/L4_hihItNzaxcD2SL7gt26lMX7Z1Lj1h1zZ6eRFVk13t6KJHhW8KTw3KtuMoc5EJQOYBLIHAYaKs-y50wRbmKqd25WK8BXLffNVXvJa_Cx_czdMEvWb1MkAV6LZVL05zcQnz2pEt0aR12QWPFIj4WWSWTGEZrocsz_Mx5vAxUph9iESmNrvLlI6AAgIT8xmkzuUUcLWa2dq7qk5Ks8ClRXA-R8MzAyuZaMbjLGSR4jp3krFj94R6hsSxE8Fy_oZ-An2S8ZP2B6EyXlQdQEuQHvmcJm-6F5IGqowT9JYc444vawPWcg142U_KVmY2hqlGa81KD0hZPdobL8gLIJhSK9RHJmIZwWaLvjqChV3trBmGTc13aDtVjkeedBMNhTSi9EXHzG4NbtUElgHlZ_0pTuZN8_9r0VWGryuQTccTjueCCp-lPzp9NQoDTRBy25SyeCyUb0Aft-A3virzjM_A7liooEGTHUXH_rR_m-KB68-kaS25dVh0h1Gwy6d4t5OSUCWIOLgJAkgM2JhF0xgpbZKqh0i3T3q91OINX09WAzQyD1pxdQAB1-nadg==",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8676244920&itemId=27144540678&vendorItemId=94112414675&traceid=V0-153-48e02b2b1cdc1aa3&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=6",
       "rocket": false,
       "free_shipping": false,
       "tags": [],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6840414599",
@@ -1142,15 +1101,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://ads-partners.coupang.com/image1/Hjb2f_6ZgvyHlB5aHr1WzzT0DvaBkp_PZ1E2eamYoh9VUpCq23h_0gKSiP6d5F20B-ltQzf7Xbv4MTWD1UuBBcu5p_SbFRD9-WozYn-pMnR9Jj1rovJjvPtehZDBeF5ej4f1c4MxJutNoR0wMnlHiqaL7cgQ7ex4aYqJ3isDXM4PnHan5wwtVhOONSKIlKxQKEarWTwFfjVHxNFhAe1yQjud3rzfZfm0hbF7ZFHAKZajvoDQ6oVV8GO5_aRRyyneuikhqJ_RIRRnoYs-QedKjDLl3Dz4TTTEBcS9q8ewoak2yhttB0b9aY-INxLFQHE69Em_DGVaLYD_ChXQ2rK9YDagC_6YqeyWzeOAjwM5zYUZ1nGWnn5pO5LBvENlodKODCnSu-TKkVtzoWpLK5I0vMl12QZqs9TJ1LCmxlVLW3cY2lNYMlDTdZgtqYrakwHRrNW_q9HZcFkR1CDbyH6jd01kiZ08g-qG1w9rW_f0-CUU9kRRK4FNzGcQ7w2rDCEFkaRK9XOOmGN7SV13ajAy5YBLy6xL5ygCWChwJH-kpZGR0m3RpBccRShIxg==",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6840414599&itemId=16264334526&vendorItemId=83457157970&traceid=V0-153-a117d8fa91a3eb17&requestid=20261114224958946211750303&token=31850C%7CGM&pt=0&slot=7",
+      "image": "https://ads-partners.coupang.com/image1/AYwDeLzvf3wXzbGcAe2Pei9XZTec3DqXlRXifJZgT1hPiVDK0-NI9QqK6RnZ6AE0kHok1wENxY24avdZC1Z9RN6vWIEXcDJ13jejwTqLoSgciqOVMH1nVYXaJu9D6gBMxKy1RVdU2JmGX8ZP_YieRRc-KEZPtRb7jtupAIQMmpx40iqJAGRLK-QWiirNF3OT0F6ZkVHlfqbbfHCAA5Elsc9ngC6usXErHawELjpup09fKv_8APLJyMJsvHQwbNz9J9sXt7KtiC1YHPYxvo3tIbf4iceQXBF6VQsZvseMJ_e580Kc9C_jTEiSU2C60sTSZKRxuE67Dh_FuCjcIPEo4YgPrjKHxkxhEQlEByL08HKtoeBGJ86IFY-UghikuStgOfPqtoBksWSuIwqHKYgtO5N3hJUDm441d0FnY3AqHUBrijCLeF6Zmvhnqpkp0ExNZ2G-mnT20WSxiqEZQHi3e90ha4kEW7rgHnAyjB_oA7FbLbboSV__G9kntzeBkjH3xUPOSQOa6phpxNYnUGzpG2RriLAf9jl5f6frBbzH2Kw3VVhh7N7TgJwComo=",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6840414599&itemId=16264334526&vendorItemId=83457157970&traceid=V0-153-a117d8fa91a3eb17&requestid=20261114225108838151525909&token=31850C%7CGM&pt=0&slot=7",
       "rocket": false,
       "free_shipping": true,
       "tags": [
         "무료배송"
       ],
       "first_seen": "2026-11-14T22:46:50+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "8312748844",
@@ -1162,7 +1121,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "식품",
-      "image": "https://image4.coupangcdn.com/image/retail/images/25774596768350-7fa2a8ab-1756-444f-9dea-b18f8ebdd167.jpg",
+      "image": "https://image12.coupangcdn.com/image/retail/images/25774596768350-7fa2a8ab-1756-444f-9dea-b18f8ebdd167.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8312748844&itemId=23987770488&vendorItemId=91008804768&traceid=V0-113-38e43d9e81550ce6&pt=0&slot=18",
       "rocket": true,
       "free_shipping": false,
@@ -1170,7 +1129,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "130180788",
@@ -1182,7 +1141,7 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "로켓프레시",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/167909280387975-44c1164a-31e4-4a7c-811c-8001f01d1366.jpg",
+      "image": "https://image1.coupangcdn.com/image/retail/images/167909280387975-44c1164a-31e4-4a7c-811c-8001f01d1366.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=130180788&itemId=383114021&vendorItemId=3930089568&traceid=V0-113-03a9507926a4c52a&pt=0&slot=4",
       "rocket": true,
       "free_shipping": false,
@@ -1190,7 +1149,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "6202345562",
@@ -1202,7 +1161,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "로켓프레시",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/8096734771923510-8aed9104-5723-4d1d-b96e-b8d60481ebe8.jpg",
+      "image": "https://image11.coupangcdn.com/image/retail/images/8096734771923510-8aed9104-5723-4d1d-b96e-b8d60481ebe8.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6202345562&itemId=12314074324&vendorItemId=79584195630&traceid=V0-113-e4697a05f924f886&pt=0&slot=14",
       "rocket": true,
       "free_shipping": false,
@@ -1210,7 +1169,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "1275124832",
@@ -1222,7 +1181,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "로켓프레시",
-      "image": "https://image8.coupangcdn.com/image/retail/images/1052513687379823-df863522-e52c-4f82-8cc7-7a6af214e231.jpg",
+      "image": "https://image4.coupangcdn.com/image/retail/images/1052513687379823-df863522-e52c-4f82-8cc7-7a6af214e231.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1275124832&itemId=2281054168&vendorItemId=70278175584&traceid=V0-113-ce2ea187b7556c63&pt=0&slot=12",
       "rocket": true,
       "free_shipping": false,
@@ -1230,7 +1189,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
     },
     {
       "id": "4618503633",
@@ -1242,7 +1201,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "로켓프레시",
-      "image": "https://image7.coupangcdn.com/image/retail/images/1482132093671966-acb44d46-3b28-4e28-925c-292da96e7ce1.jpg",
+      "image": "https://image15.coupangcdn.com/image/retail/images/1482132093671966-acb44d46-3b28-4e28-925c-292da96e7ce1.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4618503633&itemId=5720086446&vendorItemId=73018834165&traceid=V0-113-af0f9a73d6065309&pt=0&slot=5",
       "rocket": true,
       "free_shipping": false,
@@ -1250,7 +1209,47 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-14T22:49:51+09:00",
-      "last_seen": "2026-11-14T22:49:51+09:00"
+      "last_seen": "2026-11-14T22:51:01+09:00"
+    },
+    {
+      "id": "6201953316",
+      "name": "국내산 청양고추",
+      "price": 1980,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "기타",
+      "category_key": "etc",
+      "category_name": "로켓프레시",
+      "image": "https://image8.coupangcdn.com/image/retail/images/4277012004459-c7710d73-f1c9-4fe3-bb5d-a9ca72f84383.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6201953316&itemId=6106220628&vendorItemId=73402571318&traceid=V0-113-bbf565437496d4e6&pt=0&slot=10",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-14T22:51:01+09:00",
+      "last_seen": "2026-11-14T22:51:01+09:00"
+    },
+    {
+      "id": "6528172171",
+      "name": "흙대파",
+      "price": 2490,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "기타",
+      "category_key": "etc",
+      "category_name": "로켓프레시",
+      "image": "https://img1c.coupangcdn.com/image/retail/images/4063320789843989-2f070b18-3886-4b8c-871b-2403227cfec9.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6528172171&itemId=5911958170&vendorItemId=73210037048&traceid=V0-113-ea3e109dddeaf065&pt=0&slot=3",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-14T22:51:01+09:00",
+      "last_seen": "2026-11-14T22:51:01+09:00"
     }
   ]
 }
