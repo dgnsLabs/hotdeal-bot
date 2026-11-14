@@ -350,6 +350,11 @@ def collect(access_key: str, secret_key: str, sub_id: str,
         products = extract_products(payload)
         stats["sources"][label] = stats["sources"].get(label, 0) + len(products)
         log(f"[src] {label}: {len(products)}건")
+        if source == "search":
+            for raw in products:
+                _n = (raw.get("productName") or "").strip()
+                _c = (raw.get("categoryName") or "").strip()
+                log(f"    [probe] {classify(_c, _n)} | {raw.get('productPrice')} | {_c} | {_n[:60]}")
         for raw in products:
             deal = normalize(raw, source, stamp)
             if deal and deal["id"] not in found:
