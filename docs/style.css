@@ -1,5 +1,8 @@
 /* hotdeal-bot — 반응형 다크/라이트 카드 UI */
 
+/* hidden 속성이 display 규칙(.demo-banner 등)에 덮이지 않도록 고정 */
+[hidden] { display: none !important; }
+
 :root {
   --wrap: 1120px;
   --radius: 16px;
