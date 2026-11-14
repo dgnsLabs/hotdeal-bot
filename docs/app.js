@@ -4,6 +4,7 @@
 
   const SITE_URL = "https://dgnslabs.github.io/hotdeal-bot/";
   const ALLOWED_HOSTS = ["link.coupang.com", "coupa.ng", "www.coupang.com", "coupang.com"];
+  const ALLOWED_IMAGE_HOSTS = ["coupang.com", "coupangcdn.com"];
   const THEME_KEY = "hotdeal-theme";
 
   const CAT_LABEL = {
@@ -73,11 +74,11 @@
     return Number.isFinite(value) && value > 0 ? `${numFmt.format(value)}원` : "가격 미확인";
   }
 
-  function safeUrl(value) {
+  function safeUrl(value, hosts = ALLOWED_HOSTS) {
     try {
       const url = new URL(value, window.location.href);
       if (url.protocol !== "https:") return null;
-      if (!ALLOWED_HOSTS.some((host) => url.hostname === host || url.hostname.endsWith(`.${host}`))) {
+      if (!hosts.some((host) => url.hostname === host || url.hostname.endsWith(`.${host}`))) {
         return null;
       }
       return url.href;
@@ -112,7 +113,7 @@
     const media = document.createElement("div");
     media.className = "card__media";
 
-    const image = safeUrl(deal.image);
+    const image = safeUrl(deal.image, ALLOWED_IMAGE_HOSTS);
     if (image) {
       const img = document.createElement("img");
       img.src = image;
