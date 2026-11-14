@@ -145,7 +145,7 @@
       flags.appendChild(span);
     };
     if (deal.demo) addFlag("샘플", "flag--demo");
-    if (deal.category_key === "refurb") addFlag("반품·리퍼", "flag--refurb");
+    if (deal.category_key === "refurb" && !deal.demo) addFlag("반품·리퍼", "flag--refurb");
     if (!deal.demo && (deal.tags || []).includes("골드박스")) addFlag("골드박스");
     if (flags.children.length) media.appendChild(flags);
 
