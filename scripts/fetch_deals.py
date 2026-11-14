@@ -64,6 +64,13 @@ CATEGORY_KEYS = {
 }
 
 REFURB_WORDS = ("리퍼", "반품", "중고", "전시", "개봉", "b급", "as-is", " refurb", "전시상품")
+# 상품명 오탐 방지: '슬리퍼'의 '리퍼', '반품테이프/스티커' 같은 포장용품은 리퍼 상품이 아니다
+REFURB_PATTERNS = (
+    re.compile(r"(?<!슬)리퍼"),
+    re.compile(r"반품"),
+    re.compile(r"중고|개봉|b급|as-is|전시상품|(?<! )refurb"),
+)
+PACKAGING_WORDS = ("테이프", "스티커", "박스", "봉투", "송장", "라벨", "비닐")
 IT_WORDS = (
     "디지털", "가전", "컴퓨터", "노트북", "모니터", "태블릿", "휴대폰", "스마트폰", "이어폰",
     "헤드폰", "키보드", "마우스", "공기청정기", "선풍기", "가습기", "청소기", "tv", "셋톱",
@@ -191,9 +198,18 @@ def extract_products(payload: dict) -> list[dict]:
 # ------------------------------------------------------------------ classifying
 
 
+def is_refurb(text: str) -> bool:
+    """리퍼·반품 상품인지 판정한다. 포장용품(반품테이프·반품스티커 등)과 슬리퍼는 제외."""
+    if not any(pattern.search(text) for pattern in REFURB_PATTERNS):
+        return False
+    if any(word in text for word in PACKAGING_WORDS):
+        return False
+    return True
+
+
 def classify(category_name: str, product_name: str) -> str:
     text = f"{category_name or ''} {product_name or ''}".lower()
-    if any(word in text for word in REFURB_WORDS):
+    if is_refurb(text):
         return "refurb"
     if any(word in text for word in IT_WORDS):
         return "it"
