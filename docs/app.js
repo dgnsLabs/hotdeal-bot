@@ -273,6 +273,21 @@
   }
 
   function render() {
+    const live = state.deals.filter((deal) => !deal.demo);
+    const refurb = live.filter((deal) => deal.category_key === "refurb").length;
+    // 로켓배송 전용 수집에서는 반품·리퍼 상품이 없는 날이 대부분이라, 0건이면 칩과 통계를 감춘다.
+    const hideRefurb = live.length > 0 && refurb === 0;
+    const refurbChip = el.chips?.querySelector('.chip[data-category="refurb"]');
+    if (refurbChip) refurbChip.hidden = hideRefurb;
+    if (hideRefurb && state.category === "refurb") {
+      state.category = "all";
+      el.chips?.querySelectorAll(".chip").forEach((chip) => {
+        const active = chip.dataset.category === "all";
+        chip.classList.toggle("is-active", active);
+        chip.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+    }
+
     const list = visibleDeals();
     el.grid.replaceChildren(...list.map(buildCard));
     el.grid.setAttribute("aria-busy", "false");
@@ -280,10 +295,10 @@
     el.empty.hidden = !isEmpty;
     el.grid.hidden = isEmpty;
 
-    const live = state.deals.filter((deal) => !deal.demo);
     el.statsTotal.textContent = live.length ? `${live.length}건` : "준비 중";
-    const refurb = live.filter((deal) => deal.category_key === "refurb").length;
     el.statsRefurb.textContent = live.length ? `${refurb}건` : "–";
+    const refurbStat = el.statsRefurb.closest("li");
+    if (refurbStat) refurbStat.hidden = hideRefurb;
     const maxRate = live.reduce((acc, deal) => Math.max(acc, Number(deal.discount_rate) || 0), 0);
     el.statsMax.textContent = maxRate > 0 ? `${Math.round(maxRate)}%` : "–";
   }

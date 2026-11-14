@@ -2,7 +2,10 @@
 """쿠팡 파트너스 오픈 API에서 반품·특가 상품을 수집해 docs/data/deals.json 을 갱신한다.
 
 - 인증: HMAC-SHA256 CEA 서명 (COUPANG_ACCESS_KEY / COUPANG_SECRET_KEY)
-- 수집: 골드박스(오늘의 특가) + 베스트 카테고리 + 키워드 검색
+- 수집: 골드박스(오늘의 특가) + 베스트 카테고리 (키워드 검색은 기본 0회, SEARCH_KEYWORDS 로만 켠다)
+- 노출: 로켓배송(isRocket) 상품만. 일반 배송 상품은 버린다 (ROCKET_ONLY=0 으로 해제 가능)
+- 이미지: coupangcdn.com 호스트만 사용 (검색 API 의 ads-partners.coupang.com 이미지가
+  모바일 광고차단에 걸려 검색 호출을 기본에서 뺐고, 다른 호스트 이미지는 버린다)
 - 중복 제거: productId 기준, 이미 알림을 보낸 상품은 docs/data/sent_ids.json 에 기록
 - API 키가 없거나 통신에 실패해도 종료 코드 0 으로 끝나고 기존 데이터를 덮어쓰지 않는다.
 
@@ -43,22 +46,35 @@ GOLDBOX_PATH = f"{API_PREFIX}/products/goldbox"
 BEST_PATH = f"{API_PREFIX}/products/bestcategories"
 SEARCH_PATH = f"{API_PREFIX}/products/search"
 
-DEFAULT_CATEGORY_IDS = "1016,1012,1013,1007"      # 가전디지털(1016) + 식품(1012) + 주방용품(1013) + 1007
-DEFAULT_SEARCH_KEYWORDS = "리퍼노트북,공식리퍼,전시상품"  # 실제 리퍼·전시 상품이 잡히는 말
+DEFAULT_CATEGORY_IDS = "1016,1012,1013,1014,1010,1015"  # 가전디지털(1016)·식품(1012)·주방용품(1013)·생활용품(1014)·뷰티(1010)·홈인테리어(1015)
+# 검색 API 는 상품 이미지를 ads-partners.coupang.com 으로 내려 줘서 모바일 광고차단에 걸린다.
+# 기본은 검색 0회(이미지 100% coupangcdn.com 보장)이고, 필요할 때 SEARCH_KEYWORDS 로만 켠다.
+DEFAULT_SEARCH_KEYWORDS = ""
 DEFAULT_SUB_ID = "hotdeal-bot"
+
+
+def env_flag(name: str, default: bool = True) -> bool:
+    raw = (os.getenv(name) or "").strip().lower()
+    if not raw:
+        return default
+    return raw not in ("0", "false", "no", "off", "n")
+
+
+# 로켓배송 전용: 일반 배송 상품은 사이트에 올리지 않는다(2026-11-15 지시).
+ROCKET_ONLY = env_flag("ROCKET_ONLY", True)
 
 MAX_API_CALLS = int(os.getenv("MAX_API_CALLS", "12"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "60"))
 # API 별 limit 상한: 베스트 카테고리는 100, 검색은 10 (초과하면 rCode=400 limit is out of range)
-BEST_LIMIT = 20
+BEST_LIMIT = 30                                  # 로켓 필터로 절반가량이 빠지므로 넉넉히 받는다
 IT_CATEGORY_IDS = ("1016",)                      # 가전디지털: 가전·IT 후보를 넉넉히 받는다
-IT_BEST_LIMIT = int(os.getenv("IT_BEST_LIMIT", "50"))
+IT_BEST_LIMIT = int(os.getenv("IT_BEST_LIMIT", "70"))
 SEARCH_LIMIT = 10
 MIN_DISCOUNT_RATE = int(os.getenv("MIN_DISCOUNT_RATE", "10"))
 # 카테고리 균형 쿼터: 할인율 없는 상품이 가격 오름차순으로 밀리면서 고가 가전·IT가
-# MAX_ITEMS 상한에 전부 잘리던 문제를 막는다(전체 60칸 중 가전·IT 20, 반품·리퍼 12 우선 확보).
-QUOTA_IT = int(os.getenv("QUOTA_IT", "20"))
-QUOTA_REFURB = int(os.getenv("QUOTA_REFURB", "12"))
+# MAX_ITEMS 상한에 전부 잘리던 문제를 막는다(전체 60칸 중 가전·IT 27, 반품·리퍼 6 우선 확보).
+QUOTA_IT = int(os.getenv("QUOTA_IT", "27"))
+QUOTA_REFURB = int(os.getenv("QUOTA_REFURB", "6"))
 REQUEST_TIMEOUT = 20
 
 CATEGORY_KEYS = {
@@ -68,6 +84,10 @@ CATEGORY_KEYS = {
     "beauty": "뷰티·패션",
     "etc": "기타",
 }
+
+ROCKET_KEYS = ("isRocket", "is_rocket", "rocket")
+# 이미지 호스트는 coupangcdn.com 만 허용한다(ads-partners.coupang.com 은 광고차단에 걸린다).
+CDN_IMAGE_HOST = "coupangcdn.com"
 
 REFURB_WORDS = ("리퍼", "반품", "중고", "전시", "개봉", "b급", "as-is", " refurb", "전시상품")
 # 상품명 오탐 방지: '슬리퍼'의 '리퍼', '반품테이프/스티커' 같은 포장용품은 리퍼 상품이 아니다
@@ -224,7 +244,7 @@ def is_refurb(text: str) -> bool:
 CATEGORY_NAME_KEYS = (
     ("it", ("디지털", "가전")),
     ("beauty", ("패션", "뷰티", "스포츠", "레저", "유아", "아동", "출산", "화장품", "문구", "도서")),
-    ("living", ("생활", "주방", "식품", "홈인테리어", "가구", "반려", "헬스", "건강")),
+    ("living", ("생활", "주방", "식품", "로켓프레시", "신선", "홈인테리어", "가구", "반려", "헬스", "건강")),
 )
 
 # 검색 결과에는 '리퍼' 표기가 제목에 없는 리퍼 상품이 많다. 아래 키워드로 찾아온 가전·IT 상품은
@@ -264,6 +284,32 @@ def apply_refurb_hint(deal: dict, keyword: str) -> dict:
     return deal
 
 
+def truthy(value) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return value == 1
+    if isinstance(value, str):
+        return value.strip().lower() in ("1", "true", "t", "y", "yes")
+    return False
+
+
+def is_rocket(raw: dict) -> bool:
+    """로켓배송 계열 상품인지. API 는 isRocket 을 주지만 응답에 따라 이름이 달라질 수 있어 함께 본다."""
+    return any(truthy(raw.get(key)) for key in ROCKET_KEYS)
+
+
+def cdn_image(value) -> str | None:
+    """coupangcdn.com 호스트 이미지만 https 로 돌려준다. 다른 호스트(광고 서버 등)는 버린다."""
+    url = str(value or "").strip().replace("http://", "https://")
+    if not url.startswith("https://"):
+        return None
+    host = (urllib.parse.urlparse(url).hostname or "").lower()
+    if host == CDN_IMAGE_HOST or host.endswith("." + CDN_IMAGE_HOST):
+        return url
+    return None
+
+
 def parse_discount(name: str) -> float | None:
     for pattern in PERCENT_PATTERNS:
         match = pattern.search(name or "")
@@ -297,12 +343,15 @@ def normalize(raw: dict, source: str, seen_at: str) -> dict | None:
     category_name = (raw.get("categoryName") or "").strip()
     if any(word in category_name.lower() for word in EXCLUDED_CATEGORY_WORDS):
         return None
+    rocket = is_rocket(raw)
+    if ROCKET_ONLY and not rocket:
+        return None          # 로켓배송 전용: 일반 배송 상품은 사이트에 올리지 않는다
     key = classify(category_name, name)
     rate = parse_discount(name)
     tags: list[str] = []
     if source == "goldbox":
         tags.append("골드박스")
-    if raw.get("isRocket"):
+    if rocket:
         tags.append("로켓배송")
     if raw.get("isFreeShipping"):
         tags.append("무료배송")
@@ -319,10 +368,10 @@ def normalize(raw: dict, source: str, seen_at: str) -> dict | None:
         "category": CATEGORY_KEYS[key],
         "category_key": key,
         "category_name": category_name or None,
-        "image": (raw.get("productImage") or "").replace("http://", "https://") or None,
+        "image": cdn_image(raw.get("productImage")),
         "url": url,
-        "rocket": bool(raw.get("isRocket")),
-        "free_shipping": bool(raw.get("isFreeShipping")),
+        "rocket": rocket,
+        "free_shipping": truthy(raw.get("isFreeShipping")),
         "tags": tags,
         "first_seen": seen_at,
         "last_seen": seen_at,
@@ -380,16 +429,22 @@ def collect(access_key: str, secret_key: str, sub_id: str,
             category_ids: list[str], keywords: list[str]) -> tuple[list[dict], dict]:
     stamp = iso(now_kst())
     found: dict[str, dict] = {}
-    stats = {"api_calls": 0, "errors": [], "sources": {}}
+    stats = {"api_calls": 0, "errors": [], "sources": {}, "search_calls": 0,
+             "dropped_non_rocket": 0, "image_not_cdn": 0, "rocket": 0}
 
     def take(payload: dict, source: str, label: str, keyword: str = "") -> None:
         products = extract_products(payload)
         stats["sources"][label] = stats["sources"].get(label, 0) + len(products)
         log(f"[src] {label}: {len(products)}건")
         for raw in products:
+            if ROCKET_ONLY and not is_rocket(raw):
+                stats["dropped_non_rocket"] += 1
+                continue
             deal = normalize(raw, source, stamp)
             if not deal:
                 continue
+            if not deal["image"]:
+                stats["image_not_cdn"] += 1
             deal = apply_refurb_hint(deal, keyword)
             existing = found.get(deal["id"])
             if existing is None:
@@ -429,8 +484,10 @@ def collect(access_key: str, secret_key: str, sub_id: str,
         payload = call(SEARCH_PATH, {"keyword": keyword, "limit": SEARCH_LIMIT, "subId": sub_id},
                        f"search/{keyword}")
         if payload:
+            stats["search_calls"] += 1
             take(payload, "search", f"검색 '{keyword}'", keyword)
 
+    stats["rocket"] = sum(1 for deal in found.values() if deal.get("rocket"))
     return list(found.values()), stats
 
 
@@ -550,12 +607,17 @@ def build_snapshot(deals: list[dict], previous: dict, stats: dict, when: datetim
         "site_url": "https://dgnslabs.github.io/hotdeal-bot/",
         "notice": NOTICE,
         "price_notice": PRICE_NOTICE,
-        "filters": {"min_discount_rate": MIN_DISCOUNT_RATE},
+        "filters": {"min_discount_rate": MIN_DISCOUNT_RATE, "rocket_only": ROCKET_ONLY},
         "stats": {
             "fetched": stats.get("fetched", 0),
             "kept": len(deals),
             "new": new_count,
             "api_calls": stats["api_calls"],
+            "search_calls": stats.get("search_calls", 0),
+            "dropped_non_rocket": stats.get("dropped_non_rocket", 0),
+            "rocket_only": ROCKET_ONLY,
+            "rocket": sum(1 for deal in deals if deal.get("rocket")),
+            "cdn_images": sum(1 for deal in deals if deal.get("image")),
             "by_category": category_counts(deals),
             "errors": stats["errors"][:5],
         },
@@ -570,8 +632,9 @@ def empty_snapshot() -> dict:
         "site_url": "https://dgnslabs.github.io/hotdeal-bot/",
         "notice": NOTICE,
         "price_notice": PRICE_NOTICE,
-        "filters": {"min_discount_rate": MIN_DISCOUNT_RATE},
-        "stats": {"fetched": 0, "kept": 0, "new": 0, "api_calls": 0, "errors": []},
+        "filters": {"min_discount_rate": MIN_DISCOUNT_RATE, "rocket_only": ROCKET_ONLY},
+        "stats": {"fetched": 0, "kept": 0, "new": 0, "api_calls": 0, "search_calls": 0,
+                  "rocket_only": ROCKET_ONLY, "rocket": 0, "cdn_images": 0, "errors": []},
         "deals": [],
     }
 
@@ -617,29 +680,34 @@ def self_test() -> int:
 
     # 리퍼 검색 힌트: '리퍼노트북'으로 찾아온 가전·IT만 반품·리퍼로 인정
     hint = normalize({"productId": 77, "productName": "LG 그램15 인텔 i5 노트북", "productPrice": 636500,
-                      "productUrl": "https://link.coupang.com/a/hint", "categoryName": "가전디지털"},
+                      "productUrl": "https://link.coupang.com/a/hint", "categoryName": "가전디지털",
+                      "isRocket": True},
                      "search", "x")
     check("hint before", hint["category_key"], "it")
     check("hint applied", apply_refurb_hint(hint, "리퍼노트북")["category_key"], "refurb")
     check("hint tag", "반품·리퍼" in hint["tags"], True)
     other = normalize({"productId": 78, "productName": "LG 그램15 노트북", "productPrice": 636500,
-                       "productUrl": "https://link.coupang.com/a/hint2", "categoryName": "가전디지털"},
+                       "productUrl": "https://link.coupang.com/a/hint2", "categoryName": "가전디지털",
+                       "isRocket": True},
                       "search", "x")
     check("hint skips other keyword", apply_refurb_hint(other, "공식리퍼")["category_key"], "it")
     slipper = normalize({"productId": 79, "productName": "남성 쿠션 슬리퍼", "productPrice": 12900,
-                         "productUrl": "https://link.coupang.com/a/hint3", "categoryName": "남성패션"},
+                         "productUrl": "https://link.coupang.com/a/hint3", "categoryName": "남성패션",
+                         "isRocket": True},
                         "search", "x")
     check("hint skips slipper", apply_refurb_hint(slipper, "리퍼노트북")["category_key"], "beauty")
 
     # 정규화 + 필터 + 이력
     raw = {
         "productId": 1001, "productName": "리퍼 노트북 20% 할인", "productPrice": 800000,
-        "productImage": "http://img/1.jpg", "productUrl": "https://link.coupang.com/a/abc",
+        "productImage": "http://thumbnail3.coupangcdn.com/1.jpg", "productUrl": "https://link.coupang.com/a/abc",
         "categoryName": "디지털/가전", "isRocket": True, "isFreeShipping": False,
     }
     deal = normalize(raw, "goldbox", "2026-11-14T20:00:00+09:00")
     check("normalize id", deal["id"], "1001")
-    check("normalize image https", deal["image"], "https://img/1.jpg")
+    check("normalize image https", deal["image"], "https://thumbnail3.coupangcdn.com/1.jpg")
+    check("normalize image non-cdn", normalize({**raw, "productImage": "https://ads-partners.coupang.com/a.jpg"},
+                                               "goldbox", "x")["image"], None)
     check("normalize tags", deal["tags"][:2], ["골드박스", "로켓배송"])
     check("normalize bad url", normalize({**raw, "productUrl": "javascript:alert(1)"},
                                          "best", "x"), None)
@@ -662,12 +730,36 @@ def self_test() -> int:
     kept = select_deals(deals, 10, {})
     check("filter drops low rate", [d["id"] for d in kept], ["2", "3"])
 
-    # 기본 설정: 가전·IT 카테고리와 리퍼/전시 키워드
-    check("default categories has 1016", "1016" in DEFAULT_CATEGORY_IDS.split(","), True)
-    check("default keywords", DEFAULT_SEARCH_KEYWORDS.split(","), ["리퍼노트북", "공식리퍼", "전시상품"])
+    # 기본 설정: 로켓배송 전용 + 검색 0회 + 베스트 카테고리 6종
+    default_categories = DEFAULT_CATEGORY_IDS.split(",")
+    check("default categories has 1016", "1016" in default_categories, True)
+    check("default categories", default_categories, ["1016", "1012", "1013", "1014", "1010", "1015"])
+    check("default keywords empty", [k for k in DEFAULT_SEARCH_KEYWORDS.split(",") if k.strip()], [])
     check("search limit", SEARCH_LIMIT, 10)
-    check("api budget", 1 + len(DEFAULT_CATEGORY_IDS.split(","))
-          + len(DEFAULT_SEARCH_KEYWORDS.split(",")) <= 9, True)
+    check("api budget", 1 + len(default_categories)
+          + len([k for k in DEFAULT_SEARCH_KEYWORDS.split(",") if k.strip()]) <= 8, True)
+    check("rocket only default", ROCKET_ONLY, True)
+    check("quota it range", 25 <= QUOTA_IT <= 30, True)
+
+    # 로켓배송 전용 필터와 필드명 방어
+    check("rocket flag isRocket", is_rocket({"isRocket": True}), True)
+    check("rocket flag isRocket false", is_rocket({"isRocket": False}), False)
+    check("rocket flag is_rocket str", is_rocket({"is_rocket": "true"}), True)
+    check("rocket flag missing", is_rocket({"productId": 1}), False)
+    rocket_raw = {"productId": 501, "productName": "삼성 65인치 TV", "productPrice": 900000,
+                  "productUrl": "https://link.coupang.com/a/rocket", "categoryName": "가전디지털",
+                  "isRocket": True}
+    general_raw = {**rocket_raw, "productId": 502, "isRocket": False}
+    check("rocket kept", normalize(rocket_raw, "best", "x")["id"], "501")
+    check("general dropped", normalize(general_raw, "best", "x"), None)
+
+    # 이미지: coupangcdn.com 만 허용 (검색 API 의 ads-partners 이미지는 버린다)
+    check("img cdn kept", cdn_image("http://thumbnail3.coupangcdn.com/a.jpg"),
+          "https://thumbnail3.coupangcdn.com/a.jpg")
+    check("img cdn root", cdn_image("https://coupangcdn.com/a.jpg"), "https://coupangcdn.com/a.jpg")
+    check("img ads dropped", cdn_image("https://ads-partners.coupang.com/a.jpg"), None)
+    check("img lookalike dropped", cdn_image("https://coupangcdn.com.evil.io/a.jpg"), None)
+    check("img empty", cdn_image(None), None)
 
     # 쿼터 선별: 저가 생활용품이 60칸을 다 먹지 않고 가전·IT·리퍼 몫이 지켜지는지
     many: list[dict] = []
@@ -691,8 +783,8 @@ def self_test() -> int:
     picked_ids = {d["id"] for d in picked}
     check("quota size", len(picked), 60)
     check("quota unique", len(picked_ids), 60)
-    check("quota refurb", sum(1 for d in picked if d["category_key"] == "refurb") >= 10, True)
-    check("quota it", sum(1 for d in picked if d["category_key"] == "it") >= 18, True)
+    check("quota refurb", sum(1 for d in picked if d["category_key"] == "refurb") >= QUOTA_REFURB, True)
+    check("quota it", sum(1 for d in picked if d["category_key"] == "it") >= QUOTA_IT, True)
     check("goldbox first", picked[0]["id"], "G1")
     check("quota small pool", len(select_deals(many[:3], 10, {}, 60)), 3)
     check("quota zero", len(select_deals([], 10, {}, 60)), 0)
@@ -705,6 +797,8 @@ def self_test() -> int:
     check("first_seen preserved", snapshot["deals"][0]["first_seen"], "2026-11-01T09:00:00+09:00")
     check("new count", snapshot["stats"]["new"], 0)
     check("by_category", snapshot["stats"]["by_category"]["etc"], 1)
+    check("snapshot rocket_only", snapshot["stats"]["rocket_only"], ROCKET_ONLY)
+    check("snapshot search_calls", snapshot["stats"]["search_calls"], 0)
 
     if failures:
         log("[self-test] 실패:")
@@ -750,6 +844,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     log(f"[start] 수집 시작 {iso(when)} (subId={sub_id})")
+    log(f"[mode] 로켓배송 전용={'켜짐' if ROCKET_ONLY else '꺼짐'} / 베스트 카테고리 {len(category_ids)}종"
+        f" / 키워드 검색 {len(keywords)}회")
     deals, stats = collect(access_key, secret_key, sub_id, category_ids, keywords)
     stats["fetched"] = len(deals)
 
@@ -763,7 +859,12 @@ def main(argv: list[str] | None = None) -> int:
 
     mix = category_counts(kept)
     log(f"[done] 수집 {stats['fetched']}건 / 노출 {len(kept)}건 / 신규 {snapshot['stats']['new']}건 "
-        f"/ API {stats['api_calls']}회")
+        f"/ API {stats['api_calls']}회(검색 {stats.get('search_calls', 0)}회)")
+    log(f"[rocket] 후보 {stats['fetched']}건 중 로켓배송 {stats.get('rocket', 0)}건 "
+        f"/ 일반배송 제외 {stats.get('dropped_non_rocket', 0)}건 "
+        f"/ 노출 로켓배송 {snapshot['stats']['rocket']}/{len(kept)}건")
+    log(f"[img] 노출 이미지 쿠팡CDN {snapshot['stats']['cdn_images']}/{len(kept)}건 "
+        f"(다른 호스트 제외 {stats.get('image_not_cdn', 0)}건)")
     log("[mix] " + " / ".join(f"{CATEGORY_KEYS[key]} {mix.get(key, 0)}"
                               for key in ("it", "refurb", "living", "beauty", "etc")))
     for err in stats["errors"]:
