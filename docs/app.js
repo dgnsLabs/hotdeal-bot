@@ -146,7 +146,7 @@
     };
     if (deal.demo) addFlag("샘플", "flag--demo");
     if (deal.category_key === "refurb") addFlag("반품·리퍼", "flag--refurb");
-    if ((deal.tags || []).includes("골드박스")) addFlag("골드박스");
+    if (!deal.demo && (deal.tags || []).includes("골드박스")) addFlag("골드박스");
     if (flags.children.length) media.appendChild(flags);
 
     if (Number(deal.discount_rate) > 0) {
@@ -161,7 +161,9 @@
 
     const cat = document.createElement("span");
     cat.className = "card__cat";
-    cat.textContent = deal.category || CAT_LABEL[deal.category_key] || "기타";
+    cat.textContent = deal.demo
+      ? deal.category
+      : (deal.category_name || deal.category || CAT_LABEL[deal.category_key] || "기타");
     body.appendChild(cat);
 
     const title = document.createElement("h3");
@@ -194,7 +196,6 @@
     const pills = [];
     if ((deal.tags || []).includes("로켓배송")) pills.push(["로켓배송", "pill--rocket"]);
     if ((deal.tags || []).includes("무료배송")) pills.push(["무료배송", ""]);
-    if (deal.category_key === "refurb" && !deal.demo) pills.push(["반품상품", ""]);
     if (pills.length) {
       const meta = document.createElement("div");
       meta.className = "card__meta";
