@@ -49,6 +49,9 @@ DEFAULT_SUB_ID = "hotdeal-bot"
 
 MAX_API_CALLS = int(os.getenv("MAX_API_CALLS", "12"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "60"))
+# API 별 limit 상한: 베스트 카테고리는 100, 검색은 10 (초과하면 rCode=400 limit is out of range)
+BEST_LIMIT = 20
+SEARCH_LIMIT = 10
 MIN_DISCOUNT_RATE = int(os.getenv("MIN_DISCOUNT_RATE", "10"))
 REQUEST_TIMEOUT = 20
 
@@ -347,13 +350,13 @@ def collect(access_key: str, secret_key: str, sub_id: str,
         take(payload, "goldbox", "골드박스")
 
     for category_id in category_ids:
-        payload = call(f"{BEST_PATH}/{category_id}", {"limit": 20, "subId": sub_id},
+        payload = call(f"{BEST_PATH}/{category_id}", {"limit": BEST_LIMIT, "subId": sub_id},
                        f"best/{category_id}")
         if payload:
             take(payload, "best", f"베스트 {category_id}")
 
     for keyword in keywords:
-        payload = call(SEARCH_PATH, {"keyword": keyword, "limit": 20, "subId": sub_id},
+        payload = call(SEARCH_PATH, {"keyword": keyword, "limit": SEARCH_LIMIT, "subId": sub_id},
                        f"search/{keyword}")
         if payload:
             take(payload, "search", f"검색 '{keyword}'")
