@@ -43,16 +43,22 @@ GOLDBOX_PATH = f"{API_PREFIX}/products/goldbox"
 BEST_PATH = f"{API_PREFIX}/products/bestcategories"
 SEARCH_PATH = f"{API_PREFIX}/products/search"
 
-DEFAULT_CATEGORY_IDS = "1007,1005,1013"          # 생활용품, 식품, 디지털/가전
-DEFAULT_SEARCH_KEYWORDS = "리퍼,반품,공식리퍼"      # 반품·리퍼 특가 중심
+DEFAULT_CATEGORY_IDS = "1016,1007,1005,1013"      # 가전디지털(1016) + 생활용품·식품·주방용품
+DEFAULT_SEARCH_KEYWORDS = "리퍼노트북,공식리퍼,전시상품"  # 실제 리퍼·전시 상품이 잡히는 말
 DEFAULT_SUB_ID = "hotdeal-bot"
 
 MAX_API_CALLS = int(os.getenv("MAX_API_CALLS", "12"))
 MAX_ITEMS = int(os.getenv("MAX_ITEMS", "60"))
 # API 별 limit 상한: 베스트 카테고리는 100, 검색은 10 (초과하면 rCode=400 limit is out of range)
 BEST_LIMIT = 20
+IT_CATEGORY_IDS = ("1016",)                      # 가전디지털: 가전·IT 후보를 넉넉히 받는다
+IT_BEST_LIMIT = int(os.getenv("IT_BEST_LIMIT", "50"))
 SEARCH_LIMIT = 10
 MIN_DISCOUNT_RATE = int(os.getenv("MIN_DISCOUNT_RATE", "10"))
+# 카테고리 균형 쿼터: 할인율 없는 상품이 가격 오름차순으로 밀리면서 고가 가전·IT가
+# MAX_ITEMS 상한에 전부 잘리던 문제를 막는다(전체 60칸 중 가전·IT 20, 반품·리퍼 12 우선 확보).
+QUOTA_IT = int(os.getenv("QUOTA_IT", "20"))
+QUOTA_REFURB = int(os.getenv("QUOTA_REFURB", "12"))
 REQUEST_TIMEOUT = 20
 
 CATEGORY_KEYS = {
@@ -75,6 +81,10 @@ IT_WORDS = (
     "디지털", "가전", "컴퓨터", "노트북", "모니터", "태블릿", "휴대폰", "스마트폰", "이어폰",
     "헤드폰", "키보드", "마우스", "공기청정기", "선풍기", "가습기", "청소기", "tv", "셋톱",
     "충전기", "보조배터리", "카메라", "프린터", "냉장고", "세탁기", "에어컨", "전자레인지",
+    "스마트워치", "이어버드", "블루투스", "스피커", "공유기", "ssd", "그래픽카드", "프로젝터",
+    "게이밍", "게임패드", "닌텐도", "플레이스테이션", "에어프라이어", "밥솥", "블렌더", "정수기",
+    "제습기", "건조기", "식기세척기", "전기포트", "토스터", "드론", "액션캠", "아이패드", "맥북",
+    "갤럭시", "아이폰", "삼성전자", "lg전자",
 )
 LIVING_WORDS = (
     "식품", "생활", "주방", "세제", "휴지", "생필품", "가공식품", "신선", "과일", "채소",
@@ -339,6 +349,7 @@ def collect(access_key: str, secret_key: str, sub_id: str,
     def take(payload: dict, source: str, label: str) -> None:
         products = extract_products(payload)
         stats["sources"][label] = stats["sources"].get(label, 0) + len(products)
+        log(f"[src] {label}: {len(products)}건")
         for raw in products:
             deal = normalize(raw, source, stamp)
             if deal and deal["id"] not in found:
@@ -366,7 +377,8 @@ def collect(access_key: str, secret_key: str, sub_id: str,
         take(payload, "goldbox", "골드박스")
 
     for category_id in category_ids:
-        payload = call(f"{BEST_PATH}/{category_id}", {"limit": BEST_LIMIT, "subId": sub_id},
+        limit = IT_BEST_LIMIT if category_id in IT_CATEGORY_IDS else BEST_LIMIT
+        payload = call(f"{BEST_PATH}/{category_id}", {"limit": limit, "subId": sub_id},
                        f"best/{category_id}")
         if payload:
             take(payload, "best", f"베스트 {category_id}")
@@ -380,19 +392,102 @@ def collect(access_key: str, secret_key: str, sub_id: str,
     return list(found.values()), stats
 
 
-def filter_deals(deals: list[dict], min_rate: int, history: dict) -> list[dict]:
-    kept = []
+def rank_key(deal: dict):
+    """골드박스 우대 → 할인율 있는 상품 → 할인율 높은 순 → (IT은 고가, 나머지는 저가) 순."""
+    goldbox = 0 if "골드박스" in (deal.get("tags") or []) else 1
+    rate = deal.get("discount_rate")
+    price = deal.get("price") or 0
+    price_key = -price if deal.get("category_key") == "it" else price
+    return (goldbox, rate is None, -(rate or 0), price_key)
+
+
+CATEGORY_ORDER = {"refurb": 0, "it": 1, "living": 2, "beauty": 3, "etc": 4}
+
+
+def category_counts(deals: list[dict]) -> dict:
+    counts = {key: 0 for key in CATEGORY_KEYS}
+    for deal in deals:
+        key = deal.get("category_key") or "etc"
+        counts[key] = counts.get(key, 0) + 1
+    return counts
+
+
+def select_deals(deals: list[dict], min_rate: int, history: dict,
+                 max_items: int | None = None) -> list[dict]:
+    """할인율 필터 후 카테고리 쿼터로 max_items 개를 고른다.
+
+    가격 오름차순으로 그냥 잘라 내면 고가인 가전·IT 상품이 전부 잘리기 때문에,
+    반품·리퍼 → 가전·IT 몫을 먼저 확보하고 남은 자리만 생활·뷰티·기타로 번갈아 채운다.
+    """
+    limit = max_items or MAX_ITEMS
+    eligible = []
     for deal in deals:
         apply_history(deal, history)
-        rate = deal["discount_rate"]
+        rate = deal.get("discount_rate")
         if rate is not None and rate < min_rate:
             continue
-        kept.append(deal)
+        eligible.append(deal)
 
-    kept.sort(key=lambda d: (d["discount_rate"] is not None,
-                             d["discount_rate"] or 0,
-                             -d["price"]), reverse=True)
-    return kept[:MAX_ITEMS]
+    ordered = sorted(eligible, key=rank_key)
+    picked: list[dict] = []
+    taken: set[str] = set()
+
+    def take(pool: list[dict], quota: int) -> int:
+        added = 0
+        for deal in pool:
+            if added >= quota or len(picked) >= limit:
+                break
+            if deal["id"] in taken:
+                continue
+            picked.append(deal)
+            taken.add(deal["id"])
+            added += 1
+        return added
+
+    # 1) 반품·리퍼 몫 먼저 확보
+    take([d for d in ordered if d.get("category_key") == "refurb"], min(QUOTA_REFURB, limit))
+
+    # 2) 가전·IT 몫 확보(사이트의 '가전·IT' 탭에 그대로 보이도록 it 분류만 센다)
+    take([d for d in ordered if d.get("category_key") == "it"], min(QUOTA_IT, limit))
+
+    # 3) 남은 자리는 생활·뷰티·기타를 번갈아 채워 한쪽으로 쏠리지 않게
+    rest_keys = ("living", "beauty", "etc")
+    groups = {key: [d for d in ordered
+                    if (d.get("category_key") or "etc") == key and d["id"] not in taken]
+              for key in rest_keys}
+    while len(picked) < limit and any(groups.values()):
+        for key in rest_keys:
+            if len(picked) >= limit:
+                break
+            group = groups[key]
+            while group and group[0]["id"] in taken:
+                group.pop(0)
+            if not group:
+                continue
+            deal = group.pop(0)
+            picked.append(deal)
+            taken.add(deal["id"])
+
+    # 4) 그래도 자리가 남으면 남은 후보로 채운다
+    for deal in ordered:
+        if len(picked) >= limit:
+            break
+        if deal["id"] in taken:
+            continue
+        picked.append(deal)
+        taken.add(deal["id"])
+
+    picked.sort(key=lambda d: (0 if "골드박스" in (d.get("tags") or []) else 1,
+                               CATEGORY_ORDER.get(d.get("category_key") or "etc", 4),
+                               d.get("discount_rate") is None,
+                               -(d.get("discount_rate") or 0),
+                               d.get("price") or 0))
+    return picked
+
+
+# historical alias (외부 문서/스크립트 호환)
+def filter_deals(deals: list[dict], min_rate: int, history: dict) -> list[dict]:
+    return select_deals(deals, min_rate, history)
 
 
 # ---------------------------------------------------------------------- snapshot
@@ -419,6 +514,7 @@ def build_snapshot(deals: list[dict], previous: dict, stats: dict, when: datetim
             "kept": len(deals),
             "new": new_count,
             "api_calls": stats["api_calls"],
+            "by_category": category_counts(deals),
             "errors": stats["errors"][:5],
         },
         "deals": deals,
@@ -498,14 +594,52 @@ def self_test() -> int:
         {"id": "2", "price": 2000, "discount_rate": 40},
         {"id": "3", "price": 3000, "discount_rate": None},
     ]
-    kept = filter_deals(deals, 10, {})
+    kept = select_deals(deals, 10, {})
     check("filter drops low rate", [d["id"] for d in kept], ["2", "3"])
+
+    # 기본 설정: 가전·IT 카테고리와 리퍼/전시 키워드
+    check("default categories has 1016", "1016" in DEFAULT_CATEGORY_IDS.split(","), True)
+    check("default keywords", DEFAULT_SEARCH_KEYWORDS.split(","), ["리퍼노트북", "공식리퍼", "전시상품"])
+    check("search limit", SEARCH_LIMIT, 10)
+    check("api budget", 1 + len(DEFAULT_CATEGORY_IDS.split(","))
+          + len(DEFAULT_SEARCH_KEYWORDS.split(",")) <= 9, True)
+
+    # 쿼터 선별: 저가 생활용품이 60칸을 다 먹지 않고 가전·IT·리퍼 몫이 지켜지는지
+    many: list[dict] = []
+    for i in range(40):
+        many.append({"id": f"L{i}", "name": f"생활용품 {i}", "price": 1000 + i,
+                     "discount_rate": 30, "category_key": "living",
+                     "category_name": "생활용품", "tags": []})
+    for i in range(30):
+        is_refurb_it = i % 10 == 0
+        many.append({"id": f"I{i}", "name": f"삼성 노트북 리퍼 {i}" if is_refurb_it else f"LG 모니터 {i}",
+                     "price": 900000 - i, "discount_rate": None,
+                     "category_key": "refurb" if is_refurb_it else "it",
+                     "category_name": "디지털/가전", "tags": []})
+    for i in range(10):
+        many.append({"id": f"R{i}", "name": f"공식리퍼 무선청소기 {i}", "price": 200000,
+                     "discount_rate": None, "category_key": "refurb",
+                     "category_name": "생활용품", "tags": []})
+    many.append({"id": "G1", "name": "골드박스 주방세제", "price": 9900, "discount_rate": None,
+                 "category_key": "living", "category_name": "생활용품", "tags": ["골드박스"]})
+    picked = select_deals(many, 10, {}, 60)
+    picked_ids = {d["id"] for d in picked}
+    check("quota size", len(picked), 60)
+    check("quota unique", len(picked_ids), 60)
+    check("quota refurb", sum(1 for d in picked if d["category_key"] == "refurb") >= 10, True)
+    check("quota it", sum(1 for d in picked if d["category_key"] == "it") >= 18, True)
+    check("goldbox first", picked[0]["id"], "G1")
+    check("quota small pool", len(select_deals(many[:3], 10, {}, 60)), 3)
+    check("quota zero", len(select_deals([], 10, {}, 60)), 0)
+    counts = category_counts(picked)
+    check("category counts total", sum(counts.values()), 60)
 
     snapshot = build_snapshot([dict(deals[1], first_seen="x")],
                               {"deals": [{"id": "2", "first_seen": "2026-11-01T09:00:00+09:00"}]},
                               {"api_calls": 1, "errors": []}, when)
     check("first_seen preserved", snapshot["deals"][0]["first_seen"], "2026-11-01T09:00:00+09:00")
     check("new count", snapshot["stats"]["new"], 0)
+    check("by_category", snapshot["stats"]["by_category"]["etc"], 1)
 
     if failures:
         log("[self-test] 실패:")
@@ -558,12 +692,15 @@ def main(argv: list[str] | None = None) -> int:
         log("[warn] 수집된 상품이 없습니다. 기존 deals.json 을 그대로 둡니다.")
         return 0
 
-    kept = filter_deals(deals, MIN_DISCOUNT_RATE, history)
+    kept = select_deals(deals, MIN_DISCOUNT_RATE, history)
     snapshot = build_snapshot(kept, previous, stats, when)
     updated_history = update_history(history, kept, when)
 
+    mix = category_counts(kept)
     log(f"[done] 수집 {stats['fetched']}건 / 노출 {len(kept)}건 / 신규 {snapshot['stats']['new']}건 "
         f"/ API {stats['api_calls']}회")
+    log("[mix] " + " / ".join(f"{CATEGORY_KEYS[key]} {mix.get(key, 0)}"
+                              for key in ("it", "refurb", "living", "beauty", "etc")))
     for err in stats["errors"]:
         log(f"       - {err}")
 
