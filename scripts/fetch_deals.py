@@ -43,7 +43,7 @@ GOLDBOX_PATH = f"{API_PREFIX}/products/goldbox"
 BEST_PATH = f"{API_PREFIX}/products/bestcategories"
 SEARCH_PATH = f"{API_PREFIX}/products/search"
 
-DEFAULT_CATEGORY_IDS = "1016,1007,1005,1013"      # 가전디지털(1016) + 생활용품·식품·주방용품
+DEFAULT_CATEGORY_IDS = "1016,1012,1013,1007"      # 가전디지털(1016) + 식품(1012) + 주방용품(1013) + 1007
 DEFAULT_SEARCH_KEYWORDS = "리퍼노트북,공식리퍼,전시상품"  # 실제 리퍼·전시 상품이 잡히는 말
 DEFAULT_SUB_ID = "hotdeal-bot"
 
@@ -217,10 +217,28 @@ def is_refurb(text: str) -> bool:
     return True
 
 
+# 카테고리명이 분명하면 상품명보다 먼저 믿는다. ('에어프라이어 전용 종이호일', '세탁기 세제' 같은
+# 생활용품이 상품명의 가전 단어 때문에 가전·IT로 잘못 분류되는 것을 막는다.)
+CATEGORY_NAME_KEYS = (
+    ("it", ("디지털", "가전")),
+    ("beauty", ("패션", "뷰티", "스포츠", "레저", "유아", "아동", "출산", "화장품", "문구", "도서")),
+    ("living", ("생활", "주방", "식품", "홈인테리어", "가구", "반려", "헬스", "건강")),
+)
+
+# 검색 결과에는 '리퍼' 표기가 제목에 없는 리퍼 상품이 많다. 아래 키워드로 찾아온 가전·IT 상품은
+# 리퍼 상품으로 보고, '공식리퍼'처럼 쿠팡이 엉뚱한 일반 상품(슬리퍼 등)을 섞어 주는 키워드는
+# 제목에 리퍼·전시·중고 표기가 있을 때만 반품·리퍼로 인정한다.
+REFURB_HINT_KEYWORDS = ("리퍼노트북",)
+
+
 def classify(category_name: str, product_name: str) -> str:
-    text = f"{category_name or ''} {product_name or ''}".lower()
+    category = (category_name or "").strip().lower()
+    text = f"{category} {product_name or ''}".lower()
     if is_refurb(text):
         return "refurb"
+    for key, words in CATEGORY_NAME_KEYS:
+        if any(word in category for word in words):
+            return key
     if any(word in text for word in IT_WORDS):
         return "it"
     if any(word in text for word in BEAUTY_WORDS):
@@ -228,6 +246,20 @@ def classify(category_name: str, product_name: str) -> str:
     if any(word in text for word in LIVING_WORDS):
         return "living"
     return "etc"
+
+
+def apply_refurb_hint(deal: dict, keyword: str) -> dict:
+    """'리퍼노트북' 같은 리퍼 검색으로 찾아온 가전·IT 상품을 반품·리퍼로 인정한다."""
+    if keyword not in REFURB_HINT_KEYWORDS or deal.get("category_key") != "it":
+        return deal
+    text = f"{deal.get('category_name') or ''} {deal.get('name') or ''}".lower()
+    if "슬리퍼" in text or any(word in text for word in PACKAGING_WORDS):
+        return deal
+    deal["category_key"] = "refurb"
+    deal["category"] = CATEGORY_KEYS["refurb"]
+    if "반품·리퍼" not in deal["tags"]:
+        deal["tags"].append("반품·리퍼")
+    return deal
 
 
 def parse_discount(name: str) -> float | None:
@@ -346,18 +378,19 @@ def collect(access_key: str, secret_key: str, sub_id: str,
     found: dict[str, dict] = {}
     stats = {"api_calls": 0, "errors": [], "sources": {}}
 
-    def take(payload: dict, source: str, label: str) -> None:
+    def take(payload: dict, source: str, label: str, keyword: str = "") -> None:
         products = extract_products(payload)
         stats["sources"][label] = stats["sources"].get(label, 0) + len(products)
         log(f"[src] {label}: {len(products)}건")
-        if source == "search":
-            for raw in products:
-                _n = (raw.get("productName") or "").strip()
-                _c = (raw.get("categoryName") or "").strip()
-                log(f"    [probe] {classify(_c, _n)} | {raw.get('productPrice')} | {_c} | {_n[:60]}")
         for raw in products:
             deal = normalize(raw, source, stamp)
-            if deal and deal["id"] not in found:
+            if not deal:
+                continue
+            deal = apply_refurb_hint(deal, keyword)
+            existing = found.get(deal["id"])
+            if existing is None:
+                found[deal["id"]] = deal
+            elif existing["category_key"] != "refurb" and deal["category_key"] == "refurb":
                 found[deal["id"]] = deal
 
     calls_left = MAX_API_CALLS
@@ -392,7 +425,7 @@ def collect(access_key: str, secret_key: str, sub_id: str,
         payload = call(SEARCH_PATH, {"keyword": keyword, "limit": SEARCH_LIMIT, "subId": sub_id},
                        f"search/{keyword}")
         if payload:
-            take(payload, "search", f"검색 '{keyword}'")
+            take(payload, "search", f"검색 '{keyword}'", keyword)
 
     return list(found.values()), stats
 
@@ -572,6 +605,27 @@ def self_test() -> int:
     check("cls living", classify("식품", "제주 감귤 3kg"), "living")
     check("cls beauty", classify("뷰티", "수분 크림 50ml"), "beauty")
     check("cls etc", classify("", "기타 잡화"), "etc")
+    # 카테고리가 분명할 땐 상품명의 가전 단어에 속지 않는다
+    check("cls living wins", classify("생활용품", "에어프라이어 전용 종이호일"), "living")
+    check("cls living wins 2", classify("생활용품", "피죤 건조기용 드라이시트"), "living")
+    check("cls it by category", classify("디지털/가전", "닌텐도 스위치 배터리 개선판"), "it")
+    check("cls slipper not refurb", classify("여성패션", "비바스텝 쿠션 슬리퍼"), "beauty")
+
+    # 리퍼 검색 힌트: '리퍼노트북'으로 찾아온 가전·IT만 반품·리퍼로 인정
+    hint = normalize({"productId": 77, "productName": "LG 그램15 인텔 i5 노트북", "productPrice": 636500,
+                      "productUrl": "https://link.coupang.com/a/hint", "categoryName": "가전디지털"},
+                     "search", "x")
+    check("hint before", hint["category_key"], "it")
+    check("hint applied", apply_refurb_hint(hint, "리퍼노트북")["category_key"], "refurb")
+    check("hint tag", "반품·리퍼" in hint["tags"], True)
+    other = normalize({"productId": 78, "productName": "LG 그램15 노트북", "productPrice": 636500,
+                       "productUrl": "https://link.coupang.com/a/hint2", "categoryName": "가전디지털"},
+                      "search", "x")
+    check("hint skips other keyword", apply_refurb_hint(other, "공식리퍼")["category_key"], "it")
+    slipper = normalize({"productId": 79, "productName": "남성 쿠션 슬리퍼", "productPrice": 12900,
+                         "productUrl": "https://link.coupang.com/a/hint3", "categoryName": "남성패션"},
+                        "search", "x")
+    check("hint skips slipper", apply_refurb_hint(slipper, "리퍼노트북")["category_key"], "beauty")
 
     # 정규화 + 필터 + 이력
     raw = {
