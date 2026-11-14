@@ -77,6 +77,8 @@ REFURB_PATTERNS = (
     re.compile(r"중고|개봉|b급|as-is|전시상품|(?<! )refurb"),
 )
 PACKAGING_WORDS = ("테이프", "스티커", "박스", "봉투", "송장", "라벨", "비닐")
+# '전시상품' 검색에는 전시회·놀이공원 입장권(투어/여행)이 섞여 온다. 상품 특가가 아니므로 제외.
+EXCLUDED_CATEGORY_WORDS = ("투어", "여행", "travel")
 IT_WORDS = (
     "디지털", "가전", "컴퓨터", "노트북", "모니터", "태블릿", "휴대폰", "스마트폰", "이어폰",
     "헤드폰", "키보드", "마우스", "공기청정기", "선풍기", "가습기", "청소기", "tv", "셋톱",
@@ -293,6 +295,8 @@ def normalize(raw: dict, source: str, seen_at: str) -> dict | None:
         return None
 
     category_name = (raw.get("categoryName") or "").strip()
+    if any(word in category_name.lower() for word in EXCLUDED_CATEGORY_WORDS):
+        return None
     key = classify(category_name, name)
     rate = parse_discount(name)
     tags: list[str] = []
@@ -640,6 +644,8 @@ def self_test() -> int:
     check("normalize bad url", normalize({**raw, "productUrl": "javascript:alert(1)"},
                                          "best", "x"), None)
     check("normalize no price", normalize({**raw, "productPrice": 0}, "best", "x"), None)
+    check("normalize travel dropped", normalize({**raw, "categoryName": "국내투어",
+                                                "productName": "전시회 종일권"}, "search", "x"), None)
 
     history = {"2002": {"max": 10000, "last": 10000}}
     drop = {"id": "2002", "price": 7000, "discount_rate": None, "discount_source": None,
