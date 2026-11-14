@@ -1,0 +1,18 @@
+{
+  "generated_at": null,
+  "source": "demo",
+  "site_url": "https://dgnslabs.github.io/hotdeal-bot/",
+  "notice": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
+  "price_notice": "표시 가격·재고는 수집 시점 기준이며 실시간으로 달라질 수 있습니다. 최종 가격은 쿠팡 상품 페이지에서 확인해 주세요.",
+  "filters": {
+    "min_discount_rate": 10
+  },
+  "stats": {
+    "fetched": 0,
+    "kept": 0,
+    "new": 0,
+    "api_calls": 0,
+    "errors": []
+  },
+  "deals": []
+}

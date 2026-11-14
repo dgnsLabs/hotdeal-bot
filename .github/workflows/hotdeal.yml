@@ -1,0 +1,99 @@
+name: Collect deals and notify
+
+on:
+  schedule:
+    # 09:00 / 14:00 / 20:00 KST
+    - cron: "0 0,5,11 * * *"
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: "텔레그램 알림 발송"
+        type: boolean
+        default: true
+      min_discount:
+        description: "최소 할인율(%)"
+        type: string
+        default: "10"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hotdeal-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 상품 수집 (쿠팡 파트너스 Open API)
+        env:
+          COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
+          COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
+          MIN_DISCOUNT_RATE: ${{ github.event.inputs.min_discount || '10' }}
+        run: python3 scripts/fetch_deals.py
+
+      - name: 텔레그램 알림
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.notify == 'true' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: https://dgnslabs.github.io/hotdeal-bot/
+        run: python3 scripts/notify_telegram.py
+
+      - name: 변경분 커밋
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain docs/data)" ]; then
+            echo "변경된 데이터가 없습니다."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git add docs/data
+          git commit -m "chore(data): 특가 수집 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    # GITHUB_TOKEN 으로 만든 푸시는 다른 워크플로우를 깨우지 않으므로, 여기서 직접 Pages 배포
+    needs: collect
+    if: needs.collect.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

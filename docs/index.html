@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오늘의 핫딜 — 반품·특가 큐레이션</title>
+<meta name="description" content="반품·리퍼·고할인 특가를 매일 골라 담는 쿠팡 파트너스 큐레이션. 가격은 수집 시점 기준입니다.">
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="오늘의 핫딜 — 반품·특가 큐레이션">
+<meta property="og:description" content="반품·리퍼·고할인 특가를 매일 골라 담습니다.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 공정위 대가성 고지: 본문 최상단 고정 -->
+<div class="disclosure" id="disclosure" role="note" aria-label="쿠팡 파트너스 대가성 고지">
+  <span class="disclosure__badge" aria-hidden="true">AD</span>
+  <p class="disclosure__text">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+</div>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="./">
+      <span class="brand__mark" aria-hidden="true">🛒</span>
+      <span class="brand__text">
+        <strong>오늘의 핫딜</strong>
+        <small>반품·특가 큐레이션</small>
+      </span>
+    </a>
+    <div class="header-tools">
+      <span class="updated" id="updated" title="마지막 수집 시각">업데이트 확인 중…</span>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 바꾸기" title="다크/라이트 전환">
+        <span class="theme-toggle__icon" id="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">오늘 살 만한 특가만<br class="only-mobile"> 골라 담았습니다</h1>
+    <p class="hero__sub">반품·리퍼·고할인 상품을 하루 세 번 살펴보고, 조건에 맞는 것만 올립니다.</p>
+    <ul class="stats" id="stats">
+      <li><span class="stats__label">전체</span><strong id="stat-total">–</strong></li>
+      <li><span class="stats__label">반품·리퍼</span><strong id="stat-refurb">–</strong></li>
+      <li><span class="stats__label">최대 할인</span><strong id="stat-max">–</strong></li>
+    </ul>
+  </section>
+
+  <section class="controls" aria-label="목록 필터">
+    <div class="chips" id="chips" role="group" aria-label="카테고리 필터">
+      <button class="chip is-active" type="button" data-category="all" aria-pressed="true">전체</button>
+      <button class="chip" type="button" data-category="refurb" aria-pressed="false">반품·리퍼</button>
+      <button class="chip" type="button" data-category="it" aria-pressed="false">가전·IT</button>
+      <button class="chip" type="button" data-category="living" aria-pressed="false">생활·식품</button>
+      <button class="chip" type="button" data-category="beauty" aria-pressed="false">뷰티·패션</button>
+    </div>
+    <div class="controls__right">
+      <label class="search">
+        <span class="search__icon" aria-hidden="true">🔍</span>
+        <input id="search" type="search" placeholder="상품명 검색" autocomplete="off" aria-label="상품명 검색">
+      </label>
+      <label class="sort">
+        <span class="sr-only">정렬</span>
+        <select id="sort" aria-label="정렬 기준">
+          <option value="discount">할인율 높은 순</option>
+          <option value="price">낮은 가격 순</option>
+          <option value="new">최근 등록 순</option>
+        </select>
+      </label>
+    </div>
+  </section>
+
+  <p class="notice" id="notice">
+    표시 가격·재고는 수집 시점 기준이며 실시간으로 달라질 수 있습니다. 최종 가격은 쿠팡 상품 페이지에서 확인해 주세요.
+  </p>
+
+  <div class="demo-banner" id="demo-banner" hidden>
+    <strong>준비 중 화면입니다.</strong>
+    <span>아직 수집된 실상품이 없어 아래 카드는 <em>레이아웃 예시</em>입니다. 가격·재고 정보가 아닙니다.</span>
+  </div>
+
+  <section id="grid" class="grid" aria-live="polite" aria-busy="true">
+    <div class="skeleton-card" aria-hidden="true"></div>
+    <div class="skeleton-card" aria-hidden="true"></div>
+    <div class="skeleton-card" aria-hidden="true"></div>
+  </section>
+
+  <section id="empty" class="empty" hidden>
+    <p class="empty__emoji" aria-hidden="true">🧺</p>
+    <h2>조건에 맞는 상품이 없습니다</h2>
+    <p>필터를 바꾸거나 검색어를 지워 보세요. 새 특가는 하루 세 번(09시·14시·20시) 갱신됩니다.</p>
+    <button class="btn btn--ghost" id="reset-filters" type="button">필터 초기화</button>
+  </section>
+
+  <section class="how" aria-labelledby="how-title">
+    <h2 id="how-title">이 사이트는 이렇게 동작합니다</h2>
+    <ul>
+      <li><strong>수집</strong> 쿠팡 파트너스 오픈 API에서 골드박스·베스트·키워드 특가를 가져옵니다.</li>
+      <li><strong>선별</strong> 할인율과 반품·리퍼 여부로 거르고, 이미 알린 상품은 다시 올리지 않습니다.</li>
+      <li><strong>알림</strong> 텔레그램에는 요약과 이 사이트 주소만 보냅니다. 제휴 링크는 이 페이지 안에서만 열립니다.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="site-footer__notice">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+    <p class="site-footer__meta">
+      <span>© <span id="year">2026</span> hotdeal-bot</span>
+      <span>·</span>
+      <a href="https://github.com/dgnsLabs/hotdeal-bot" rel="noopener">소스</a>
+      <span>·</span>
+      <span>가격·재고는 쿠팡 기준, 수집 시점에 따라 달라질 수 있습니다.</span>
+    </p>
+  </div>
+</footer>
+
+<noscript>
+  <div class="wrap noscript">상품 목록을 보려면 브라우저에서 자바스크립트를 켜 주세요.</div>
+</noscript>
+
+<script src="app.js" defer></script>
+</body>
+</html>
