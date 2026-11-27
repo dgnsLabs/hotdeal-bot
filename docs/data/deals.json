@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T04:59:08+09:00",
+  "generated_at": "2026-11-27T15:52:19+09:00",
   "source": "live",
   "site_url": "https://dgnslabs.github.io/hotdeal-bot/",
   "notice": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
@@ -9,12 +9,12 @@
     "rocket_only": true
   },
   "stats": {
-    "fetched": 213,
+    "fetched": 214,
     "kept": 60,
-    "new": 33,
+    "new": 35,
     "api_calls": 7,
     "search_calls": 0,
-    "dropped_non_rocket": 12,
+    "dropped_non_rocket": 11,
     "rocket_only": true,
     "rocket": 60,
     "cdn_images": 60,
@@ -29,527 +29,443 @@
   },
   "deals": [
     {
-      "id": "9633585405",
-      "name": "Lydsto 자동 분수 스마트 창문 로봇청소기 수납 케이스 증정",
-      "price": 161260,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "가전·IT",
-      "category_key": "it",
-      "category_name": "가전디지털",
-      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/image_audit/stage/manual/ef35bea5-67fa-49a0-8319-32a92717b96a_fixing_v2_1791276644585.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9633585405&itemId=28778026694&vendorItemId=96031636875&traceid=V0-143-186020c3014c0141&pt=0&slot=14",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8982779083",
-      "name": "에이수스 2025 TUF 게이밍 F16 코어i7 인텔 14세대 지포스 RTX 5070",
-      "price": 2879000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "가전·IT",
-      "category_key": "it",
-      "category_name": "가전디지털",
-      "image": "https://thumbnail12.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/08/11/17/1/296d78c9-bb0c-485b-9a87-d1dc2d77c4e2.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8982779083&itemId=26301942628&vendorItemId=93279668232&traceid=V0-143-8d7219bae7be9c5c&pt=0&slot=24",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "1478827525",
-      "name": "마니커 닭터의자연 무항생제 인증 1등급 닭다리 북채 (냉장)",
-      "price": 6310,
+      "id": "220853185",
+      "name": "홈플래닛 알카라인 AAA건전지",
+      "price": 8590,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
-      "category_name": "로켓프레시",
-      "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/530028969307812-7dcae6fd-14ae-4246-9d08-6099bde8d105.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1478827525&itemId=2540564589&vendorItemId=70533187578&traceid=V0-143-2d296b3e0b0d8039&pt=0&slot=18",
+      "category_name": "생활용품",
+      "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/269853615086000-8d222212-fef3-432e-a995-25a58f5a2681.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=220853185&itemId=688970969&vendorItemId=4766901050&traceid=V0-143-31ed3e9d5145c9c2&pt=0&slot=9",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "9782785284",
-      "name": "[고식이섬유 영양간식]핏더빈 촉촉하고 고소한 맛 병아리콩",
-      "price": 8630,
+      "id": "487322",
+      "name": "해표 콩기름 식용유",
+      "price": 10230,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "식품",
-      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/77bd/c3075233dc7a1992e5eb1cdcab382f3ca27675f4b742fe63624e89778689.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9782785284&itemId=29288112170&vendorItemId=96204493767&traceid=V0-143-027bfb3a8279428c&pt=0&slot=12",
+      "image": "https://t4c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/1350822428107-37372c5f-151d-405e-873e-0c0bcce5eddd.png",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=487322&itemId=21364582526&vendorItemId=84994377307&traceid=V0-143-f290b8409ae3d82e&pt=0&slot=26",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "6304053877",
-      "name": "탐사스파클링 플레인 무라벨",
-      "price": 8790,
+      "id": "9032104227",
+      "name": "해피데이 포켓형 핫팩 100g",
+      "price": 11050,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
-      "category_name": "식품",
-      "image": "https://t2a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/729077036752739-33071492-7a55-44b9-9f0f-474ba015a7b0.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6304053877&itemId=13051123791&vendorItemId=80313927137&traceid=V0-143-704bd015be8b7f68&pt=0&slot=17",
+      "category_name": "생활용품",
+      "image": "https://t3c.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/0c82/a1ee02d6e1916c5f21a6eb8198fd1e240d88710e1e353b874c1c34cabfd1.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9032104227&itemId=12905862799&vendorItemId=3055099843&traceid=V0-143-6232e7c7d53f9bbd&pt=0&slot=2",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "5890610169",
-      "name": "곰곰 칼집 비엔나 소시지",
-      "price": 8910,
+      "id": "188262980",
+      "name": "하림 참 토종닭 백숙용 (냉장)",
+      "price": 11070,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "로켓프레시",
-      "image": "https://t5c.coupangcdn.com/thumbnails/remote/512x512ex/image/1025_amir_coupang_oct_80k/0bfe/17e8b04009b03d146ba0fa1e466fb0afc28608f42814a60a448ed0f6abbd.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=5890610169&itemId=10357252789&vendorItemId=77639416097&traceid=V0-143-0daa27050d7bb4f9&pt=0&slot=20",
+      "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/241333452498752-dbf05177-7730-4773-9e5e-93144cc2df0b.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=188262980&itemId=537699083&vendorItemId=4404178139&traceid=V0-143-d3067804b04b9f3c&pt=0&slot=7",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "8008544893",
-      "name": "브릭글로 스탠다드 니트릴 장갑 100p",
-      "price": 10300,
+      "id": "877132",
+      "name": "오레오 웨하스 스틱 초코",
+      "price": 13080,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "생활·식품",
+      "category_key": "living",
+      "category_name": "식품",
+      "image": "https://t5c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/983889761555206-bc10601f-3b3e-4879-9ae0-d8c5214104a6.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=877132&itemId=6527649106&vendorItemId=73821782643&traceid=V0-143-dbff56c4104a2a03&pt=0&slot=15",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8187326904",
+      "name": "미닛메이드 레몬에이드 탄산음료",
+      "price": 13340,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "생활·식품",
+      "category_key": "living",
+      "category_name": "식품",
+      "image": "https://t5a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/03/20/10/8/ff0ae358-aeaa-47bd-9ecf-d984bc25fac7.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8187326904&itemId=23416154964&vendorItemId=92141028091&traceid=V0-143-1db433a6b2565743&pt=0&slot=10",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "6795965704",
+      "name": "하림 닭가슴살 블랙페퍼",
+      "price": 16510,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "생활·식품",
+      "category_key": "living",
+      "category_name": "로켓프레시",
+      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/244547432190960-a714eca1-b5f1-4e32-99f3-d98c8a66ac6a.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6795965704&itemId=12628460347&vendorItemId=79896126181&traceid=V0-143-f94675da0aa7c887&pt=0&slot=3",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8174473713",
+      "name": "코카콜라 제로",
+      "price": 18700,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "생활·식품",
+      "category_key": "living",
+      "category_name": "식품",
+      "image": "https://t1c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/1991112197005-96f28fdc-8ac2-4f31-b860-84c41470b37d.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8174473713&itemId=26504519093&vendorItemId=91458195016&traceid=V0-143-4d8275f22060fd79&pt=0&slot=1",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "7425675992",
+      "name": "글래드 매직랩 미니 + 일반형 세트",
+      "price": 19710,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "주방용품",
-      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/55446566659044-c99da1dd-5abb-4f69-b523-d73e6872409c.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8008544893&itemId=11814481954&vendorItemId=79087999751&traceid=V0-143-672747f772f197d0&pt=0&slot=21",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/82658234808079-a32a7ce2-1f9f-4990-8312-81fc8a2c37dd.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7425675992&itemId=19274300274&vendorItemId=86389417723&traceid=V0-143-9678f6784bcebbba&pt=0&slot=19",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "9711973763",
-      "name": "액츠 퍼펙트 실내건조 일반용 프레시 플로럴향 액상세제 본품",
-      "price": 10900,
+      "id": "6555187500",
+      "name": "해피콜 인덕션 솔라리스 다이아몬드 후라이팬",
+      "price": 20800,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
-      "category_name": "생활용품",
-      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/57158726844058-5f532d39-0cbe-4379-ac54-9f6c2593b978.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9711973763&itemId=23804197823&vendorItemId=85574305199&traceid=V0-143-758202ceb21ad815&pt=0&slot=2",
+      "category_name": "주방용품",
+      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/28149945193299-91e2c5a9-bf46-4c3b-a616-9444fff41bc6.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6555187500&itemId=14649893064&vendorItemId=81891212511&traceid=V0-143-249e6cfb9a3a13aa&pt=0&slot=4",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "6267481550",
-      "name": "세끼판다 단호박 샐러드",
-      "price": 11800,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "생활·식품",
-      "category_key": "living",
-      "category_name": "로켓프레시",
-      "image": "https://t3c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/351699360818534-ab768864-5e85-499e-a44d-29e85255edc6.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6267481550&itemId=12798421109&vendorItemId=80064458324&traceid=V0-143-f4b6e9b0c073357a&pt=0&slot=9",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8157269016",
-      "name": "평창수 무라벨 생수",
-      "price": 12900,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "생활·식품",
-      "category_key": "living",
-      "category_name": "식품",
-      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/1402225015511478-05a7b5a7-361a-4cbf-973a-a85aad1abce3.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8157269016&itemId=7505540767&vendorItemId=86495568125&traceid=V0-143-001a4f06029965eb&pt=0&slot=4",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "7742262008",
-      "name": "[로켓프레시] 미미정담 카스테라 생크림 찹쌀떡 (냉동)",
-      "price": 13500,
+      "id": "7075133888",
+      "name": "[로켓프레시] 농협안심한우 1등급 정육 세절 국거리용 (냉장)",
+      "price": 24470,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "로켓프레시",
-      "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/771985793849468-d10d4196-0b8d-49f7-b087-5ea4d8b010ea.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7742262008&itemId=20833160524&vendorItemId=87901190545&traceid=V0-143-73b6d5fea076f87e&pt=0&slot=27",
+      "image": "https://t2c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/14926899238611-6e729a89-fe5c-405a-b2c9-a2c67bd0bfdc.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7075133888&itemId=22901629384&vendorItemId=89936137034&traceid=V0-143-66c2c81002c9a853&pt=0&slot=25",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "7104553961",
-      "name": "듀라셀 오리지널 AAA 건전지",
-      "price": 14900,
+      "id": "6764152921",
+      "name": "아망떼 소울메이트 장모 극세사 침대패드",
+      "price": 31900,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
-      "category_name": "생활용품",
-      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/194457336747712-31a5edc7-98fc-44b0-88d9-e044dc91d5a9.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7104553961&itemId=14516512583&vendorItemId=4949572312&traceid=V0-143-a288cfa2bb3e4d06&pt=0&slot=22",
+      "category_name": "가구/홈인테리어",
+      "image": "https://thumbnail14.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/118431179584557-b6a90036-8ae3-4205-bebb-93626bdfbd23.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6764152921&itemId=15860416195&vendorItemId=83070399158&traceid=V0-143-6c0e4a5f8d9d17f6&pt=0&slot=20",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "6959793257",
-      "name": "토레타 무라벨 이온음료",
-      "price": 15580,
+      "id": "7657684704",
+      "name": "삼익가구 에클레르 프리미엄 3인용 가죽 소파 + 쿠션 방문설치",
+      "price": 319000,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "생활·식품",
       "category_key": "living",
-      "category_name": "식품",
-      "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/255924417538099-deb5cf45-caaa-46db-972f-4ac16f90e151.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6959793257&itemId=16939061524&vendorItemId=88378292406&traceid=V0-143-bbe83a6feec60c22&pt=0&slot=15",
+      "category_name": "가구/홈인테리어",
+      "image": "https://t4c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/1810272899428441-a470bfff-4e8d-4347-b620-5f4ce5b43dcc.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7657684704&itemId=20392549517&vendorItemId=87475269159&traceid=V0-143-c6f6d5dbc243d6e5&pt=0&slot=6",
       "rocket": true,
-      "free_shipping": false,
+      "free_shipping": true,
       "tags": [
         "골드박스",
-        "로켓배송"
+        "로켓배송",
+        "무료배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "9187884849",
-      "name": "비안 터치 논슬립 스포츠 장갑 양손착용 2종 세트",
-      "price": 7000,
+      "id": "7518100889",
+      "name": "베이스알파에센셜 아동 보들보들 넥워머 2매입 세트",
+      "price": 8290,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "뷰티·패션",
       "category_key": "beauty",
-      "category_name": "스포츠/레저용품",
-      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/512x512ex/image/rs_quotation_api/ajwlvnnx/e060d9cd44574c1f8392a16fbfc0160b.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9187884849&itemId=24284132284&vendorItemId=91717503662&traceid=V0-143-5afe403591b9de40&pt=0&slot=13",
+      "category_name": "패션잡화",
+      "image": "https://thumbnail1.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/23737674823759-2c9b1a62-804a-4973-afcc-c9c8403ba68a.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7518100889&itemId=19712929341&vendorItemId=86817253478&traceid=V0-143-7aaac33d92c0ee96&pt=0&slot=21",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "6610541214",
-      "name": "NEW 가방퍼즐",
-      "price": 9100,
+      "id": "3008251",
+      "name": "첫 오리기: 손은 제2의 두뇌! 집중력, 창의력이 쑥쑥!",
+      "price": 9600,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "도서/음반",
-      "image": "https://thumbnail14.coupangcdn.com/thumbnails/remote/512x512ex/image/1025_amir_coupang_oct_80k/2304/72ed36293e2c04a0467fb2e56efd5140a75bf005215d6812834ffcb52008.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6610541214&itemId=14987954379&vendorItemId=82210941256&traceid=V0-143-9639018f2c3e1c19&pt=0&slot=8",
+      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2142450022035400-bdbbfa30-3ede-480d-b309-714a97691f75.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=3008251&itemId=14076765&vendorItemId=3021502805&traceid=V0-143-662e0365f5473f38&pt=0&slot=17",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "8514091791",
-      "name": "다슈 데일리 볼륨픽 헤어클립",
-      "price": 11770,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "뷰티",
-      "image": "https://thumbnail15.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/331003300926640-89bc3848-3054-44fd-b3c7-5c8aa4b7472c.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8514091791&itemId=24647034097&vendorItemId=91652231195&traceid=V0-143-e17bd676cc9fcb86&pt=0&slot=19",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "1407366400",
-      "name": "헤드앤숄더 두피 토탈 솔루션 딥클린 샴푸",
-      "price": 13990,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "뷰티",
-      "image": "https://t2c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/498427748594674-67f6ca2e-dadd-4469-9ec4-6e59d4920b78.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1407366400&itemId=13947635119&vendorItemId=71731402309&traceid=V0-143-a1ed830e8784a95e&pt=0&slot=1",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "6865830848",
-      "name": "김영주스포츠 남성 기모 본딩 골프 팬츠 겨울용 MP31",
-      "price": 29900,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "패션의류",
-      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/512x512ex/image/vendor_inventory/79ab/1f7822a7c9fac931173ebb4c5936a67bdaee885398cfc8a3bff2f2f2b1fb.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6865830848&itemId=16409982411&vendorItemId=83697867355&traceid=V0-143-8efa476ecd285954&pt=0&slot=3",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8709610613",
-      "name": "베네통 데일리 랩탑 백팩",
-      "price": 56000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "패션잡화",
-      "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/512x512ex/image/rs_quotation_api/nwrts8zj/c68fce44b67f414589f49f614e45adcf.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8709610613&itemId=27293520407&vendorItemId=94260110532&traceid=V0-143-0586a4bf44801bc3&pt=0&slot=16",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "9803268517",
-      "name": "폴햄 남성용 무브 덕다운 숏 패딩 PHF4JP1760",
-      "price": 81000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "패션의류",
-      "image": "https://t3a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/11/03/14/2/70a01997-c37f-4821-84eb-0906712c1cfb.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9803268517&itemId=29355821128&vendorItemId=96268778874&traceid=V0-143-b264508e81c95382&pt=0&slot=10",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8869279257",
-      "name": "브라이튼 엘론 확장형 전면오픈 경량 캐리어 20인치, 24인치, 28인치",
-      "price": 124000,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "패션잡화",
-      "image": "https://t5c.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2025/06/25/17/6/ae333c59-a3a8-4491-9684-02f98a532feb.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8869279257&itemId=25873004944&vendorItemId=92859119073&traceid=V0-143-b36e16f0f0d4badd&pt=0&slot=11",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8710122036",
-      "name": "설화수 탄력 3종 세트",
-      "price": 162540,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "뷰티",
-      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/599620146374208-0e5fb283-b4ac-495b-90fb-b5011a7338d2.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8710122036&itemId=25295342741&vendorItemId=91955712190&traceid=V0-143-13e1dffbbb3c1c11&pt=0&slot=5",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "골드박스",
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "9572595068",
-      "name": "베벨로 바이크 모멘텀 3X 실내자전거",
-      "price": 356680,
+      "id": "8519721168",
+      "name": "휠라 시그니처 더블 쿠션 미드 양말 5켤레",
+      "price": 15900,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "스포츠/레저용품",
-      "image": "https://t3a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/2026/10/16/16/7/3c781ad1-23b3-483f-a531-ed053a2965d1.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9572595068&itemId=28572417035&vendorItemId=96194987088&traceid=V0-143-fdea4e28f7963296&pt=0&slot=23",
+      "image": "https://t1a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/328908899268064-482ec871-3bb4-438e-9916-c635f7e8c819.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8519721168&itemId=17847376374&vendorItemId=85010860479&traceid=V0-143-db9408e9e6fa979c&pt=0&slot=16",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "골드박스",
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "8554238867",
-      "name": "Apple 정품 전원 어댑터 20W USB C",
-      "price": 20790,
-      "original_price": 25890,
-      "discount_rate": 19.7,
+      "id": "7525760486",
+      "name": "닥터지 블랙 스네일 토너 150ml + 에멀전 150ml 스페셜 2종 세트",
+      "price": 25730,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "뷰티",
+      "image": "https://t1a.coupangcdn.com/thumbnails/remote/512x512ex/image/retail/images/1746297290432563-cd710986-38cd-4de4-b270-c6c5a2a2d349.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7525760486&itemId=21473143810&vendorItemId=86851644388&traceid=V0-143-7511e7c45497f3c1&pt=0&slot=8",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8261224400",
+      "name": "쥬시쥬디 여성용 J스냅 포인트 골지 긴소매 티셔츠 ON JYTS62AA",
+      "price": 35100,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "패션의류",
+      "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/512x512ex/image/rs_quotation_api/yw31jeqt/83078d7b78ff411e970719af53f615ee.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8261224400&itemId=23799033293&vendorItemId=90822977719&traceid=V0-143-b3a684b46d843e6a&pt=0&slot=5",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "골드박스",
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "9682171979",
+      "name": "브리타 정수기 필터 막스트라 프로 퓨어 퍼포먼스 3p",
+      "price": 23690,
+      "original_price": 38210,
+      "discount_rate": 38.0,
       "discount_source": "history",
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image12.coupangcdn.com/image/1025_amir_coupang_oct_80k/337c/6f9e8514fcfd9526e0eabab41c0ae0a2fa18aff939c9b55904b8805717dc.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8554238867&itemId=3892998437&vendorItemId=88946948908&traceid=V0-113-8928c09ffaab5c3f&pt=0&slot=26",
+      "image": "https://image2.coupangcdn.com/image/retail/images/9591836727990-8c6324b4-4e94-4942-a4ea-e2374e1a1289.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9682171979&itemId=23756832465&vendorItemId=90781295338&traceid=V0-113-cf60c26154a52b84&pt=0&slot=6",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T04:59:08+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8554238867",
+      "name": "Apple 정품 전원 어댑터 20W USB C",
+      "price": 21030,
+      "original_price": 25890,
+      "discount_rate": 18.8,
+      "discount_source": "history",
+      "category": "가전·IT",
+      "category_key": "it",
+      "category_name": "가전디지털",
+      "image": "https://img5a.coupangcdn.com/image/1025_amir_coupang_oct_80k/337c/6f9e8514fcfd9526e0eabab41c0ae0a2fa18aff939c9b55904b8805717dc.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8554238867&itemId=3892998437&vendorItemId=88946948908&traceid=V0-113-8928c09ffaab5c3f&pt=0&slot=25",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-18T14:59:36+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "8549272685",
-      "name": "키오시아 EXCERIA 마이크로 메모리 카드 홈캠 블랙박스 CCTV SD LMEX1L064GG4",
-      "price": 18400,
-      "original_price": 21900,
-      "discount_rate": 16.0,
+      "id": "8498887873",
+      "name": "필립스 무선 ENC노이즈캔슬링 블루투스 이어폰",
+      "price": 17900,
+      "original_price": 19900,
+      "discount_rate": 10.1,
       "discount_source": "history",
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img4a.coupangcdn.com/image/retail/images/116306729351983-be268789-2db2-4eb3-893c-e91bfe90c026.jpeg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8549272685&itemId=29274029338&vendorItemId=83542711457&traceid=V0-113-2fa0668b9b90edb2&pt=0&slot=37",
+      "image": "https://img2c.coupangcdn.com/image/vendor_inventory/f39b/d95e3c4b7abd45339f82293e8360e23050160d3ebee6ef5723b9b552f293.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8498887873&itemId=24600675528&vendorItemId=91612183770&traceid=V0-113-53ee2dd24dc6f077&pt=0&slot=32",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-26T15:57:26+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8371426122",
@@ -561,55 +477,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img5a.coupangcdn.com/image/retail/images/45980923822783-c7e5456a-babc-42be-964f-1f5fb074573c.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8371426122&itemId=24191037916&vendorItemId=93060581945&traceid=V0-113-a4c449bdaf9cc908&pt=0&slot=46",
+      "image": "https://image4.coupangcdn.com/image/retail/images/45980923822783-c7e5456a-babc-42be-964f-1f5fb074573c.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8371426122&itemId=24191037916&vendorItemId=93060581945&traceid=V0-113-a4c449bdaf9cc908&pt=0&slot=49",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-26T05:23:22+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8498887873",
-      "name": "필립스 무선 ENC노이즈캔슬링 블루투스 이어폰",
-      "price": 18900,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "가전·IT",
-      "category_key": "it",
-      "category_name": "가전디지털",
-      "image": "https://img4c.coupangcdn.com/image/vendor_inventory/f39b/d95e3c4b7abd45339f82293e8360e23050160d3ebee6ef5723b9b552f293.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8498887873&itemId=24600675528&vendorItemId=91612183770&traceid=V0-113-53ee2dd24dc6f077&pt=0&slot=30",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "8369793508",
-      "name": "고속충전 대용량 보조배터리 30000mAh PD 22.5W QC3.0 잔량표시 멀티단자 + 20W C타입 케이블",
-      "price": 19800,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "가전·IT",
-      "category_key": "it",
-      "category_name": "가전디지털",
-      "image": "https://image6.coupangcdn.com/image/vendor_inventory/eb52/65a00714e7aa9a9cb0146139f7e4c1cd2b967726277f86fd7d692dc275a7.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8369793508&itemId=27879909201&vendorItemId=96055862467&traceid=V0-113-ab4a8c8a1980100a&pt=0&slot=28",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "324788226",
@@ -621,35 +497,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/26159416953419-37907c07-742f-4851-af1e-1d2a176b996f.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=324788226&itemId=3801974770&vendorItemId=86953840553&traceid=V0-113-3edcd694e7edecd4&pt=0&slot=4",
+      "image": "https://image10.coupangcdn.com/image/retail/images/26159416953419-37907c07-742f-4851-af1e-1d2a176b996f.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=324788226&itemId=3801974770&vendorItemId=86953840553&traceid=V0-113-3edcd694e7edecd4&pt=0&slot=1",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-16T13:53:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "9724359548",
-      "name": "TROKY 초고출력 헤어 드라이기 파워풍량 2500W 전문가용 6단 조절",
-      "price": 22800,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "가전·IT",
-      "category_key": "it",
-      "category_name": "가전디지털",
-      "image": "https://img4c.coupangcdn.com/image/vendor_inventory/a5c1/c44e09262b721ebf0c50d96ac576d847e64e36b8690ea436f8da04f9181f.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9724359548&itemId=29100535842&vendorItemId=96177022734&traceid=V0-113-ec68118bc50c813b&pt=0&slot=38",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "7772316248",
@@ -662,14 +518,14 @@
       "category_key": "it",
       "category_name": "가전디지털",
       "image": "https://image8.coupangcdn.com/image/retail/images/611405215639611-5842002a-d09b-4f2e-88d8-bacaf28d59b5.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7772316248&itemId=20986227057&vendorItemId=88050694887&traceid=V0-113-0de31ba3c3679234&pt=0&slot=39",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7772316248&itemId=20986227057&vendorItemId=88050694887&traceid=V0-113-0de31ba3c3679234&pt=0&slot=41",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-25T05:59:27+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "6011227725",
@@ -681,15 +537,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img3a.coupangcdn.com/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6011227725&itemId=19848126302&vendorItemId=70778258892&traceid=V0-113-38d0e1f44bf0cf88&pt=0&slot=8",
+      "image": "https://img1c.coupangcdn.com/image/1025_amir_coupang_oct_80k/243b/566c5e1c6edc04f8a07a96374c7d03275399cb239fbdc3201a3677c73562.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6011227725&itemId=19848126302&vendorItemId=70778258892&traceid=V0-113-38d0e1f44bf0cf88&pt=0&slot=5",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-25T05:59:27+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "2068932759",
@@ -701,55 +557,55 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image12.coupangcdn.com/image/1025_amir_coupang_oct_80k/7ee2/189c2a945b4cf40229b71a9b0fad53a8e1b874a7548600a6ab13664002ce.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=2068932759&itemId=3515436046&vendorItemId=71501561600&traceid=V0-113-4e57f5c60cc75e80&pt=0&slot=36",
+      "image": "https://image5.coupangcdn.com/image/1025_amir_coupang_oct_80k/7ee2/189c2a945b4cf40229b71a9b0fad53a8e1b874a7548600a6ab13664002ce.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=2068932759&itemId=3515436046&vendorItemId=71501561600&traceid=V0-113-4e57f5c60cc75e80&pt=0&slot=38",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "8421629273",
-      "name": "일체형 보조배터리 고속충전 30000mAh 대용량 PD 22.5W QC3.0 잔량표시+ 4개 케이블 멀티단자",
-      "price": 23900,
+      "id": "237746555",
+      "name": "유닉스 1700W 접이식 헤어 드라이어",
+      "price": 24570,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img4a.coupangcdn.com/image/vendor_inventory/3d43/996c21bfe6c21034d7f0a3858f9ac851eda328c691856c0fdc4ad33dd609.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8421629273&itemId=24359274667&vendorItemId=96061338761&traceid=V0-113-48cc85bc7af918f5&pt=0&slot=55",
+      "image": "https://img5c.coupangcdn.com/image/retail/images/1215988819119456-59a0d8eb-c5d0-4a5d-a41e-293e134b459c.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=237746555&itemId=753265132&vendorItemId=4902730008&traceid=V0-113-6423d4520a3762f0&pt=0&slot=45",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "7665804013",
-      "name": "릴렉시 전자파 안심 온열매트",
-      "price": 25170,
+      "id": "8729115745",
+      "name": "유닉스 세라믹 판고데기",
+      "price": 24900,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image1.coupangcdn.com/image/retail/images/286427402673277-abce616b-b01a-4981-8e99-c46ffbc6f543.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7665804013&itemId=20435281200&vendorItemId=91081900490&traceid=V0-113-f80dcfc87b98979d&pt=0&slot=51",
+      "image": "https://image5.coupangcdn.com/image/retail/images/3119329271198321-48837eec-1d55-42ff-b5b1-58bf6a3ac38a.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8729115745&itemId=25361584612&vendorItemId=3089081003&traceid=V0-113-c054456fc302c5b1&pt=0&slot=18",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-26T05:23:22+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8906928222",
@@ -761,15 +617,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/2025/08/12/15/6/2363f0d5-9d37-45af-89df-066af230328c.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8906928222&itemId=26312288038&vendorItemId=93289813319&traceid=V0-113-0716ed97de513313&pt=0&slot=48",
+      "image": "https://img1a.coupangcdn.com/image/retail/images/2025/08/12/15/6/2363f0d5-9d37-45af-89df-066af230328c.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8906928222&itemId=26312288038&vendorItemId=93289813319&traceid=V0-113-0716ed97de513313&pt=0&slot=51",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-25T05:59:27+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "9039184892",
@@ -781,15 +637,15 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image14.coupangcdn.com/image/vendor_inventory/1324/f88329eecb87e91da64d4b7546ca76cf803bf1df0800046d27b67bb588f7.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9039184892&itemId=26519737262&vendorItemId=96041413864&traceid=V0-113-f8975315d57dc6d4&pt=0&slot=50",
+      "image": "https://image10.coupangcdn.com/image/vendor_inventory/1324/f88329eecb87e91da64d4b7546ca76cf803bf1df0800046d27b67bb588f7.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9039184892&itemId=26519737262&vendorItemId=96041413864&traceid=V0-113-f8975315d57dc6d4&pt=0&slot=53",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-26T05:23:22+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "6746959907",
@@ -801,35 +657,35 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image9.coupangcdn.com/image/vendor_inventory/0f9d/d0a7cc8bf0b71a71b15c74767c500e72e32338ee76252630352c587b6be3.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6746959907&itemId=15766967377&vendorItemId=95907954512&traceid=V0-113-bb84807544fb748f&pt=0&slot=54",
+      "image": "https://image2.coupangcdn.com/image/vendor_inventory/0f9d/d0a7cc8bf0b71a71b15c74767c500e72e32338ee76252630352c587b6be3.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6746959907&itemId=15766967377&vendorItemId=95907954512&traceid=V0-113-bb84807544fb748f&pt=0&slot=55",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-26T05:23:22+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "9150828084",
       "name": "HanilMedical 탄소열선 고급 전기요 HL-D205(25)",
-      "price": 29900,
+      "price": 30900,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/213045621520415-179662fb-0af6-47d8-8b45-f87ce362a55b.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9150828084&itemId=23742803694&vendorItemId=70964612078&traceid=V0-113-f97adfce32a80899&pt=0&slot=3",
+      "image": "https://image6.coupangcdn.com/image/retail/images/213106184456189-3078eb08-02fd-42a5-b9d2-5d00d03628c8.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9150828084&itemId=29309177007&vendorItemId=70964612125&traceid=V0-113-f97adfce32a80899&pt=0&slot=8",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-23T03:14:23+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "9734718643",
@@ -841,35 +697,35 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image4.coupangcdn.com/image/vendor_inventory/7af3/411ee018fa8fe0a4b88a21827ad3a27402959d6e8d033b5464be36c7a084.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9734718643&itemId=29132418041&vendorItemId=96056382701&traceid=V0-113-9af64ac55af7486d&pt=0&slot=12",
+      "image": "https://image8.coupangcdn.com/image/vendor_inventory/7af3/411ee018fa8fe0a4b88a21827ad3a27402959d6e8d033b5464be36c7a084.png",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9734718643&itemId=29132418041&vendorItemId=96056382701&traceid=V0-113-9af64ac55af7486d&pt=0&slot=9",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "9682171979",
-      "name": "브리타 정수기 필터 막스트라 프로 퓨어 퍼포먼스 3p",
-      "price": 38210,
+      "id": "8384750465",
+      "name": "까사 전기매트 전자파없는 카본 탄소매트",
+      "price": 39800,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img1a.coupangcdn.com/image/retail/images/10241625685154-c09eb623-ca82-4681-8bdf-8b48d12bf39c.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9682171979&itemId=28953072623&vendorItemId=95108799878&traceid=V0-113-cf60c26154a52b84&pt=0&slot=64",
+      "image": "https://image15.coupangcdn.com/image/vendor_inventory/5d9c/834087fac27f9860c19fded7cffdc09cd91bedc5786ab30bedb38090b29f.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8384750465&itemId=24233006885&vendorItemId=91267570391&traceid=V0-113-63e1e242bc7a5135&pt=0&slot=61",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "6073583477",
@@ -881,7 +737,7 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image13.coupangcdn.com/image/retail/images/5570926200647505-ef582000-4ce0-469a-8bce-af81e14285dc.jpg",
+      "image": "https://image3.coupangcdn.com/image/retail/images/5570926200647505-ef582000-4ce0-469a-8bce-af81e14285dc.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6073583477&itemId=11224102499&vendorItemId=78501492576&traceid=V0-113-2bf1e9b2812ee3f7&pt=0&slot=56",
       "rocket": true,
       "free_shipping": false,
@@ -889,7 +745,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "4604878225",
@@ -901,15 +757,55 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image9.coupangcdn.com/image/vendor_inventory/0fe9/43a78d28d01977c1c740cd27436edc21e17efe141add062b43410d531411.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4604878225&itemId=5684276777&vendorItemId=72983142950&traceid=V0-113-c9ba0e2161c6e2c7&pt=0&slot=42",
+      "image": "https://image6.coupangcdn.com/image/vendor_inventory/0fe9/43a78d28d01977c1c740cd27436edc21e17efe141add062b43410d531411.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4604878225&itemId=5684276777&vendorItemId=72983142950&traceid=V0-113-c9ba0e2161c6e2c7&pt=0&slot=46",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-15T21:32:43+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "9718465477",
+      "name": "[27년형 당일발송] 한일의료기 전자파 안심 탄소매트 세탁가능",
+      "price": 54900,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "가전·IT",
+      "category_key": "it",
+      "category_name": "가전디지털",
+      "image": "https://image4.coupangcdn.com/image/vendor_inventory/b8c4/98f50fa40759853e721dc0768c2b4ae490ab1a27e6a39ec03089a599261c.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9718465477&itemId=29081902021&vendorItemId=96007684791&traceid=V0-113-e5f1a5bd516eed76&pt=0&slot=27",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "6784715012",
+      "name": "쿠쿠 전자레인지 다이얼식 20L",
+      "price": 57000,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "가전·IT",
+      "category_key": "it",
+      "category_name": "가전디지털",
+      "image": "https://image3.coupangcdn.com/image/retail/images/1739905866850695-52c0e620-29f6-47c8-9f08-66f8f62b67e7.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6784715012&itemId=15967393537&vendorItemId=5493101444&traceid=V0-113-70e181a43b411328&pt=0&slot=11",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "1868813621",
@@ -921,15 +817,35 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image13.coupangcdn.com/image/vendor_inventory/dc57/ff0f92d0e66b5fe69d6f0cdce47d52ea6c9335fc264b7107041c0c87afd8.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1868813621&itemId=3176343489&vendorItemId=71163814309&traceid=V0-113-ff2745999eb05cd5&pt=0&slot=66",
+      "image": "https://img5a.coupangcdn.com/image/vendor_inventory/dc57/ff0f92d0e66b5fe69d6f0cdce47d52ea6c9335fc264b7107041c0c87afd8.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1868813621&itemId=3176343489&vendorItemId=71163814309&traceid=V0-113-ff2745999eb05cd5&pt=0&slot=65",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "9019055318",
+      "name": "삼성전자 갤럭시 버즈3 FE 블루투스 이어폰",
+      "price": 131400,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "가전·IT",
+      "category_key": "it",
+      "category_name": "가전디지털",
+      "image": "https://image3.coupangcdn.com/image/retail/images/168637284916747-6f2d840c-fc2c-4e35-ac63-3df6cc7dd9cc.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9019055318&itemId=26442741419&vendorItemId=93418323317&traceid=V0-113-1ffb8e6cf2c2ae7c&pt=0&slot=42",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "9729244277",
@@ -941,68 +857,68 @@
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image1.coupangcdn.com/image/retail/images/2026/09/10/7/7/ce512298-9be6-447c-ab11-3cbcd8c346d2.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9729244277&itemId=29114723176&vendorItemId=96039310973&traceid=V0-113-54f5c5f3513f8e8d&pt=0&slot=6",
+      "image": "https://img2c.coupangcdn.com/image/retail/images/2026/09/10/7/7/ce512298-9be6-447c-ab11-3cbcd8c346d2.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9729244277&itemId=29114723176&vendorItemId=96039310973&traceid=V0-113-54f5c5f3513f8e8d&pt=0&slot=3",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "9024163013",
-      "name": "Apple 2025 에어팟 프로 3 USB-C 블루투스 이어폰",
-      "price": 296000,
+      "id": "9729244275",
+      "name": "Apple 2026 에어팟 5 무선 충전 케이스 액티브 노이즈 캔슬링 블루투스 이어폰",
+      "price": 228900,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img2a.coupangcdn.com/image/retail/images/13880464300917-2f4f4e1b-9bb7-4b73-ba97-0ea444b9e2d9.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9024163013&itemId=26462308675&vendorItemId=93437588392&traceid=V0-113-848acafd9e852dbc&pt=0&slot=1",
+      "image": "https://img2c.coupangcdn.com/image/rs_quotation_api/2j3xod6k/0cd2c680f3834549ac73842316fde7c2.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9729244275&itemId=29114723174&vendorItemId=96039310972&traceid=V0-113-55314e6de92e3973&pt=0&slot=31",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "9309807812",
       "name": "삼성전자 갤럭시 버즈4 프로",
-      "price": 317350,
+      "price": 317000,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://img4c.coupangcdn.com/image/retail/images/168757274708413-7d8131bb-2377-4985-92fe-ffd434ccbca8.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9309807812&itemId=27585107819&vendorItemId=94548723286&traceid=V0-113-17dcec4c46f95bca&pt=0&slot=70",
+      "image": "https://img2a.coupangcdn.com/image/retail/images/168757274708413-7d8131bb-2377-4985-92fe-ffd434ccbca8.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9309807812&itemId=27585107819&vendorItemId=94548723286&traceid=V0-113-17dcec4c46f95bca&pt=0&slot=69",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "7342429961",
       "name": "삼성전자 김치플러스 126L 뚜껑형 김치냉장고 방문설치",
-      "price": 491880,
+      "price": 469000,
       "original_price": null,
       "discount_rate": null,
       "discount_source": null,
       "category": "가전·IT",
       "category_key": "it",
       "category_name": "가전디지털",
-      "image": "https://image11.coupangcdn.com/image/retail/images/201336400127282-d058bcab-be7d-488d-ae30-ba6caa51131e.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7342429961&itemId=22505901845&vendorItemId=86003745230&traceid=V0-113-d05661b59cf71f7c&pt=0&slot=63",
+      "image": "https://img5c.coupangcdn.com/image/retail/images/201336400127282-d058bcab-be7d-488d-ae30-ba6caa51131e.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7342429961&itemId=22505901845&vendorItemId=86003745230&traceid=V0-113-d05661b59cf71f7c&pt=0&slot=62",
       "rocket": true,
       "free_shipping": true,
       "tags": [
@@ -1010,7 +926,48 @@
         "무료배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "7487768410",
+      "name": "삼성전자 그랑데 통버블 세탁기 16kg 방문설치",
+      "price": 514000,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "가전·IT",
+      "category_key": "it",
+      "category_name": "가전디지털",
+      "image": "https://image15.coupangcdn.com/image/retail/images/34223277602881-1394d57e-fad8-44a8-8b24-5c5764c02859.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7487768410&itemId=19573765260&vendorItemId=86681495122&traceid=V0-113-7139e716b11cf1f5&pt=0&slot=50",
+      "rocket": true,
+      "free_shipping": true,
+      "tags": [
+        "로켓배송",
+        "무료배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "7134558328",
+      "name": "크리넥스 안심 3겹 키친타올",
+      "price": 5950,
+      "original_price": 12310,
+      "discount_rate": 51.7,
+      "discount_source": "history",
+      "category": "생활·식품",
+      "category_key": "living",
+      "category_name": "생활용품",
+      "image": "https://img4c.coupangcdn.com/image/retail/images/212202820595125-a3283e0c-7c03-4898-b6ae-731fc724862a.png",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7134558328&itemId=20247515510&vendorItemId=3158599929&traceid=V0-113-1640d8dc2891e05d&pt=0&slot=3",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8274844249",
@@ -1022,95 +979,35 @@
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "생활용품",
-      "image": "https://image1.coupangcdn.com/image/retail/images/238446864521076-cfff6bc5-8d70-4fd3-86b0-6c1dcf0e3e68.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8274844249&itemId=23851579760&vendorItemId=90874965380&traceid=V0-113-ca1d2eadfdb415fa&pt=0&slot=24",
+      "image": "https://image12.coupangcdn.com/image/retail/images/238446864521076-cfff6bc5-8d70-4fd3-86b0-6c1dcf0e3e68.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8274844249&itemId=23851579760&vendorItemId=90874965380&traceid=V0-113-ca1d2eadfdb415fa&pt=0&slot=25",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-26T15:57:26+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
-      "id": "220853174",
-      "name": "홈플래닛 알카라인 AA건전지",
-      "price": 5390,
-      "original_price": 8590,
-      "discount_rate": 37.3,
-      "discount_source": "history",
-      "category": "생활·식품",
-      "category_key": "living",
-      "category_name": "생활용품",
-      "image": "https://image10.coupangcdn.com/image/retail/images/6994193593310-37607480-1832-4fea-83c8-f7fd60a7e755.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=220853174&itemId=24414583222&vendorItemId=91429101205&traceid=V0-113-ab475b85e536aa59&pt=0&slot=25",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "7825654282",
-      "name": "크린랩 롤백 25cm x 35cm",
-      "price": 7220,
-      "original_price": 9780,
-      "discount_rate": 26.2,
+      "id": "8194763460",
+      "name": "코멧 종이컵 185ml",
+      "price": 5340,
+      "original_price": 9990,
+      "discount_rate": 46.5,
       "discount_source": "history",
       "category": "생활·식품",
       "category_key": "living",
       "category_name": "주방용품",
-      "image": "https://image4.coupangcdn.com/image/retail/images/392545394552626-29401e94-bf64-47f1-b757-343fa07496fe.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7825654282&itemId=22919691638&vendorItemId=86693839978&traceid=V0-113-504c52a37707b820&pt=0&slot=3",
+      "image": "https://img1a.coupangcdn.com/image/retail/images/22300188645275-cd159d76-deff-43e6-a198-15b1ffe10a45.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8194763460&itemId=25002359029&vendorItemId=92007490356&traceid=V0-113-850ad507c68daf96&pt=0&slot=27",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "1275124832",
-      "name": "곰곰 아삭한 콩나물",
-      "price": 1090,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "생활·식품",
-      "category_key": "living",
-      "category_name": "로켓프레시",
-      "image": "https://img5a.coupangcdn.com/image/retail/images/1052513687379823-df863522-e52c-4f82-8cc7-7a6af214e231.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1275124832&itemId=2281054168&vendorItemId=70278175584&traceid=V0-113-ce2ea187b7556c63&pt=0&slot=11",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "6854321814",
-      "name": "곰곰 아삭한 숙주나물",
-      "price": 1290,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "생활·식품",
-      "category_key": "living",
-      "category_name": "로켓프레시",
-      "image": "https://image2.coupangcdn.com/image/retail/images/601211273616884-822f2483-06e9-473b-888e-0e529bf45217.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6854321814&itemId=16340254688&vendorItemId=83532122006&traceid=V0-113-481387fbd6d2bd61&pt=0&slot=17",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8085379688",
@@ -1122,35 +1019,15 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://img5c.coupangcdn.com/image/retail/images/122155209031162-dc0a77ab-e276-4d71-a111-e6862c4cd7b5.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8085379688&itemId=22293595882&vendorItemId=89339135026&traceid=V0-113-5ffb50fdf7bb0599&pt=0&slot=19",
+      "image": "https://image8.coupangcdn.com/image/retail/images/122155209031162-dc0a77ab-e276-4d71-a111-e6862c4cd7b5.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8085379688&itemId=22293595882&vendorItemId=89339135026&traceid=V0-113-5ffb50fdf7bb0599&pt=0&slot=21",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-24T17:32:27+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "4310015590",
-      "name": "바세린 프로텍팅 젤리 멀티밤",
-      "price": 3020,
-      "original_price": 4250,
-      "discount_rate": 28.9,
-      "discount_source": "history",
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "뷰티",
-      "image": "https://img2c.coupangcdn.com/image/retail/images/56082782-5744-441d-be62-f63a32e436c49491872833630350336.png",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=4310015590&itemId=17971781079&vendorItemId=95536669964&traceid=V0-113-5ac31782b55c4140&pt=0&slot=8",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-15T09:02:09+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "6671696651",
@@ -1162,35 +1039,15 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "문구/사무용품",
-      "image": "https://image11.coupangcdn.com/image/retail/images/1149028466891514-9591f176-d46d-4c56-bd24-0312f36952fa.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6671696651&itemId=15352091516&vendorItemId=82572322173&traceid=V0-113-ae61bb9a51cbb7cc&pt=0&slot=3",
+      "image": "https://image9.coupangcdn.com/image/retail/images/1149028466891514-9591f176-d46d-4c56-bd24-0312f36952fa.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=6671696651&itemId=15352091516&vendorItemId=82572322173&traceid=V0-113-ae61bb9a51cbb7cc&pt=0&slot=2",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-24T17:32:27+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
-    },
-    {
-      "id": "9068696519",
-      "name": "신일 박스테이프 폭 48mm x 길이 40m x 두께 0.57mm",
-      "price": 3450,
-      "original_price": null,
-      "discount_rate": null,
-      "discount_source": null,
-      "category": "뷰티·패션",
-      "category_key": "beauty",
-      "category_name": "문구/사무용품",
-      "image": "https://image6.coupangcdn.com/image/retail/images/930519213985665-402cf826-9ad2-4213-a040-f1151bf3f30f.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9068696519&itemId=26631731165&vendorItemId=93604560126&traceid=V0-113-87606ea0fe6f103e&pt=0&slot=8",
-      "rocket": true,
-      "free_shipping": false,
-      "tags": [
-        "로켓배송"
-      ],
-      "first_seen": "2026-11-26T05:23:22+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "7773825463",
@@ -1202,15 +1059,155 @@
       "category": "뷰티·패션",
       "category_key": "beauty",
       "category_name": "뷰티",
-      "image": "https://image13.coupangcdn.com/image/1025_amir_coupang_oct_80k/98d9/5f2bf870c88cc75971e7c828cf1f0c3b4e8cccd8599f6940ce373e1e3a8d.jpg",
-      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7773825463&itemId=20994410327&vendorItemId=88058748379&traceid=V0-113-69b447a4c0e0dae2&pt=0&slot=25",
+      "image": "https://img3c.coupangcdn.com/image/1025_amir_coupang_oct_80k/98d9/5f2bf870c88cc75971e7c828cf1f0c3b4e8cccd8599f6940ce373e1e3a8d.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=7773825463&itemId=20994410327&vendorItemId=88058748379&traceid=V0-113-69b447a4c0e0dae2&pt=0&slot=29",
       "rocket": true,
       "free_shipping": false,
       "tags": [
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "9535412530",
+      "name": "네이쳐러브메레 일회용 아기턱받이",
+      "price": 4400,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "출산/유아",
+      "image": "https://image11.coupangcdn.com/image/retail/images/337280602122349-df246567-ad42-4aa6-b31b-5f3018a51bf5.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=9535412530&itemId=28439694546&vendorItemId=95390486098&traceid=V0-113-b6e318658ae7e857&pt=0&slot=4",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "1946659295",
+      "name": "바세린 립테라피 스틱",
+      "price": 4520,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "뷰티",
+      "image": "https://img5c.coupangcdn.com/image/retail/images/971be084-919b-49b1-bd1d-765e686f75253182951393765719383.png",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=1946659295&itemId=27764005899&vendorItemId=94724614515&traceid=V0-113-34c257b8cc02cbff&pt=0&slot=2",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8059755411",
+      "name": "도브 뷰티 크림 바 비누",
+      "price": 4910,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "뷰티",
+      "image": "https://img5c.coupangcdn.com/image/retail/images/315738342650826-27bae142-185e-4f99-9557-8c053f2bab58.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8059755411&itemId=27923704185&vendorItemId=90858864367&traceid=V0-113-95b0039747b18185&pt=0&slot=6",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8510780911",
+      "name": "탐사 향기나는 기저귀 쓰레기봉투 베이비파우더향 100p",
+      "price": 5000,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "출산/유아",
+      "image": "https://image15.coupangcdn.com/image/retail/images/1660945635374858-f61b1639-c757-47b3-b871-e79d1d8e1043.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8510780911&itemId=24635173109&vendorItemId=91646131047&traceid=V0-113-ca43c3b6d0743d1c&pt=0&slot=7",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "106265",
+      "name": "폰즈 클리어 훼이스 스파 립 앤 아이 메이크업 리무버",
+      "price": 5450,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "뷰티",
+      "image": "https://image10.coupangcdn.com/image/retail/images/492249120081095-264e0be1-dc68-4867-a84a-c7da042ba53b.png",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=106265&itemId=205447&vendorItemId=3000138986&traceid=V0-113-e573ae7bb530e5de&pt=0&slot=17",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "8520281997",
+      "name": "프로그 향기나는 기저귀봉투 베이비파우더향 100p",
+      "price": 5560,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "출산/유아",
+      "image": "https://image14.coupangcdn.com/image/retail/images/845662615684342-71e8e3ea-eed1-4cd9-a597-ed0bc1075465.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8520281997&itemId=154765889&vendorItemId=3361346762&traceid=V0-113-fd869e24ac667329&pt=0&slot=3",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
+    },
+    {
+      "id": "26148164",
+      "name": "베이비베어 가제무지 면 손수건 10p",
+      "price": 5990,
+      "original_price": null,
+      "discount_rate": null,
+      "discount_source": null,
+      "category": "뷰티·패션",
+      "category_key": "beauty",
+      "category_name": "패션의류",
+      "image": "https://img4c.coupangcdn.com/image/retail/images/2017/07/06/15/1/9e5330af-9d0e-4c5a-8cd4-eaad0f8ccde8.jpg",
+      "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=26148164&itemId=101530350&vendorItemId=3188953819&traceid=V0-113-cc1756588e94f457&pt=0&slot=12",
+      "rocket": true,
+      "free_shipping": false,
+      "tags": [
+        "로켓배송"
+      ],
+      "first_seen": "2026-11-27T15:52:19+09:00",
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8921579137",
@@ -1222,7 +1219,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "자동차용품",
-      "image": "https://image10.coupangcdn.com/image/retail/images/2025/07/16/15/6/6b5fcafc-69ea-4111-8aa2-7f84234a2d64.jpg",
+      "image": "https://image14.coupangcdn.com/image/retail/images/2025/07/16/15/6/6b5fcafc-69ea-4111-8aa2-7f84234a2d64.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8921579137&itemId=26071203379&vendorItemId=93052262472&traceid=V0-113-06b5cada8851e9e5&pt=0&slot=23",
       "rocket": true,
       "free_shipping": false,
@@ -1230,7 +1227,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     },
     {
       "id": "8829849124",
@@ -1242,7 +1239,7 @@
       "category": "기타",
       "category_key": "etc",
       "category_name": "자동차용품",
-      "image": "https://image7.coupangcdn.com/image/retail/images/13730166830145-b4a5bb45-a246-46e1-b5b7-377af5407043.jpg",
+      "image": "https://img1c.coupangcdn.com/image/retail/images/13730166830145-b4a5bb45-a246-46e1-b5b7-377af5407043.jpg",
       "url": "https://link.coupang.com/re/AFFSDP?lptag=AF9613921&subid=hotdeal-bot&pageKey=8829849124&itemId=25727712917&vendorItemId=92716352629&traceid=V0-113-25f75fc7725902b2&pt=0&slot=17",
       "rocket": true,
       "free_shipping": false,
@@ -1250,7 +1247,7 @@
         "로켓배송"
       ],
       "first_seen": "2026-11-27T04:59:08+09:00",
-      "last_seen": "2026-11-27T04:59:08+09:00"
+      "last_seen": "2026-11-27T15:52:19+09:00"
     }
   ]
 }
